@@ -7458,7 +7458,7 @@ button.bg-dark:focus {
   top: 0;
   right: 0;
   left: 0;
-  /* z-index: 1030; */
+  z-index: 1030;
 }
 
 .fixed-bottom {
@@ -9681,7 +9681,8 @@ a.text-dark:hover, a.text-dark:focus {
     min-width: 992px !important;
   }
   .navbar {
-    display: none;
+    /* display: none; */
+    display: flex;
   }
   .badge {
     border: 1px solid #000;
