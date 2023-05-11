@@ -36,6 +36,7 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -509,12 +510,27 @@ section {
   margin-bottom: 10px; */
 }
 
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+}
+
+.resume .resume-item .list_bullet{
+  border: solid black; 
+  border-width: 0 3px 3px 0; 
+  display: inline-block; 
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* font-size: 26px; */
+  /* font-weight: 700; */
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  /* padding-bottom: 10px; */
 }
 
 .resume .resume-item:last-child {
