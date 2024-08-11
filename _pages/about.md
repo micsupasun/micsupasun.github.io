@@ -8,7 +8,7 @@ redirect_from:
 ---
 <!-- <p>Supasun Khumpraphan is currently a research student working on industry research project at the Australian National University under the supervision of <a href="https://leiwangr.github.io/">Mr. Lei Wang</a> (ANU & Data61/CSIRO).</p>  -->
 
-Supasun Khumpraphan is currently a research student working on industry research project at the University of Reading under the supervision of [Dr Muhammad Shahzad](https://research.reading.ac.uk/iron-and-microbiome/dr-muhammad-shahzad/).
+Supasun Khumpraphan is currently a research student working on an industry research project at the University of Reading under the supervision of [Dr Muhammad Shahzad](https://research.reading.ac.uk/iron-and-microbiome/dr-muhammad-shahzad/).
 
 He received his bachelor's degree in software engineering from Thammasat University, Thailand, and completed his master's degree in Artificial Intelligence at the University of Essex with first-class honors. He got a top score in Machine Learning and Text Analytics course.
 
