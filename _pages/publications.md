@@ -30,17 +30,18 @@ a:active {
 	<tbody id="gsc_a_b">
 		<!-- <tr class="gsc_a_tr" style="background-color:#E0FFFF">  -->
     <tr class="gsc_a_tr"> 
-			<td class="gsc_a_t"><a href="https://link.springer.com/article/10.1007/s11263-024-02070-2"><strong><span class="gsc_a_at">Meet JEANIE: a Similarity Measure for 3D Skeleton Sequences via Temporal‑Viewpoint Alignment</span></strong></a>
-				<div class="gs_gray"><strong>L Wang</strong>, J Liu, L Zheng, T Gedeon, P Koniusz</div>
-				<div class="gs_gray">International Journal of Computer Vision (<strong>IJCV</strong>), 1-32</div>
+			<td class="gsc_a_t"><a href="https://link.springer.com/article/10.1007/s11263-024-02070-2"><strong><span class="gsc_a_at">Experimental Analysis of Speech Emotion and
+Gender Recognition</span></strong></a>
+				<div class="gs_gray"><strong>S Khumpraphan</strong>, G Huang, C Luo</div>
+				<div class="gs_gray">IEEE Transactions on Affective Computing (<strong>IJCV</strong>), 1-32</div>
 			</td>
-			<td class="gsc_a_c">(IJCV special issue on our ACCV'22)<br>[<font color="red"><strong>IF: 19.5</strong></font>] <br><a href="https://github.com/LeiWangR/JEANIE" style="color:#000000;"> Code </a></td>
-			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2023</span></td>
+			[<font color="red"><strong>IF: 9.6</strong></font>] <br><a href="https://github.com/LeiWangR/JEANIE" style="color:#000000;"> Code </a></td>
+			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
 		</tr>
   </tbody>
 </table>  
 
-<h2>Conferences</h2>
+<!-- <h2>Conferences</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
 		<tr class="gsc_a_tr">
@@ -52,9 +53,9 @@ a:active {
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 
-<h2>Patents</h2>
+<!-- <h2>Patents</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
 		<tr class="gsc_a_tr">
@@ -65,7 +66,7 @@ a:active {
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2022</span></td>
 		</tr>
 	</tbody>
-</table>
+</table> -->
 
 <h2>Theses</h2>
 <table id="gsc_a_t">
@@ -80,7 +81,7 @@ a:active {
 	</tbody>
 </table>
  
-<h2>arXiv preprints</h2>
+<!-- <h2>arXiv preprints</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
 		<tr class="gsc_a_tr">
@@ -93,5 +94,5 @@ a:active {
 		</tr>
 	</tbody>
 </table>
-<p>&nbsp;</p>
+<p>&nbsp;</p> -->
 
