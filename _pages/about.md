@@ -6,8 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!-- <p>Supasun Khumpraphan is currently a research student working on industry research project at the Australian National University under the supervision of <a href="https://leiwangr.github.io/">Mr. Lei Wang</a> (ANU & Data61/CSIRO).</p>  -->
 
-Supasun Khumpraphan received his bachelor's degree in software engineering from Thammasat University, Thailand, and completed his master's degree in Artificial Intelligence at the University of Essex with first-class honors. He got a top score in Machine Learning and Text Analytics course.
+Supasun Khumpraphan is currently a research student working on industry research project at the University of Reading under the supervision of [Dr Muhammad Shahzad](https://research.reading.ac.uk/iron-and-microbiome/dr-muhammad-shahzad/).
+
+He received his bachelor's degree in software engineering from Thammasat University, Thailand, and completed his master's degree in Artificial Intelligence at the University of Essex with first-class honors. He got a top score in Machine Learning and Text Analytics course.
 
 He was a Full Stack Developer Internship for Witsawa Corporation Co., Ltd., experienced in front- and back-end development of websites. He has trackable experience using TFITF, Dialogflow, SQL(PostgreSQL), NoSQL(MongoDB), Flask, Cloud Heroku, Google Cloud Platform, and Firebase. He was a Data Scientist at Botnoi. He developed chatbot applications for Facebook and Twitter. He was also a Data Engineer at Trinity Roots and Accenture. His expertise spans several disciplines, including Data mining, machine learning, and Natural Language Processing.
 
