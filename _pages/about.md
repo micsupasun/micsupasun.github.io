@@ -18,40 +18,35 @@ He has broad research interests in machine learning, Deep Learning, and Computer
 
 He is very passionate about Computer Vision. He has done more than 10 Computer Vision projects, including object detection, object distance, product recommendation, virtual keyboard, and volume control. In addition, He has done more than 30 NLP projects, including Text Classification, Question Answering, Generate Transformer, Document Classification, Named Entity Recognition, Part of Speech Tagging, Sentiment analysis, text preprocessing, Text to Speech, Word embedding, Word sentence representation, Soundex, and Dialogflow.
 
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
+<!-- Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
 1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
 1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
 1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+1. Check status by going to the repository settings, in the "GitHub pages" section -->
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<p>&nbsp;</p>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<h2>Recent News</h2>
 
-**Markdown generator**
+I personally do not have any news; the most exciting updates are coming from my talented students!
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+- 02/08/2024: Welcome <font color="blue">Arjun Raj</font> to my research group for the academic research project. Many thanks to <font color="blue">Arjun Raj</font> and the [research team](https://time.anu.edu.au/team/) for establishing the Temporal Intelligence and Motion Extraction ([TIME](https://time.anu.edu.au)) Lab.
+- 29/07/2024: Welcome <font color="blue">Yifan Chen</font> and <font color="blue">Gennie Nguyen</font> to my research group for their final year research project.
+- 22/07/2024: My proposed project, "Active Vision," has been officially included in the 2024 Techlauncher program. Mr. Francis Williams will be the client for this project. <font color="blue">Arjun Raj</font> will act as the 'delegated client' at ANU on behalf of Lei Wang.
+- 16/07/2024: One paper has been accepted at *ACM-MM 2024*. Congratulations to Wenshuo Chen, Hongru Xiao, and Erhang Zhang.
+- 12/06/2024: As the ANU TechLauncher community ([photo](https://leiwangr.github.io/files/1000007677.jpg)), we are a finalist in the Business & Industry category and an *ACT Merit recipient* in the Student & Education category for *the 2024 iAwards* ([award certificate](https://leiwangr.github.io/files/techlauncher_aiia_award_2024.png)).
+- 27/05/2024: The MDPI open-access journal *Electronics* [Q2, h-index 83] has a special issue on ‘Motion-centric Video Processing’ (Guest Editors: Dr. Lei Wang, Prof. Tom Gedeon, Dr. Zhenyue Qin) now [open for submission](https://www.mdpi.com/journal/electronics/special_issues/OCT400DHJS). The deadline for manuscript submissions is 15 December, 2024. Interested authors are encouraged to contact me for more details.
+- 22/05/2024: As the ANU TechLauncher community, we are a finalist for *the 2024 iAwards*.
+- 02/05/2024: One paper has been accepted at *ICML 2024*. Congratulations to my Summer Scholar <font color="blue">Xiuyuan (Jack) Yuan</font>!
+- 22/02/2024: My proposed project, "ActiveIntelligence: CAM-FALL (Camera-based Fall Alert System)," has been officially included in the 2024 Techlauncher program. Mr. Francis Williams, representing Active Intelligence Corp., will be the client for this project. <font color="blue">Jushang Qiu</font> will act as the 'delegated client' at ANU on behalf of Lei Wang.
+- 19/02/2024: I am the primary supervisor for six ANU students: <font color="blue">Dexuan Ding</font>, <font color="blue">Qixiang Chen</font>, <font color="blue">Huilin Chen</font>, <font color="blue">Liyun Zhu</font>, <font color="blue">Jushang Qiu</font>, and <font color="blue">Liwen Luo</font>. I am also supervising <font color="blue">Yifan Chen</font> and <font color="blue">Arjun Raj</font> on industry research projects.
+- 02/02/2024: Congratulations to <font color="blue">Xiuyuan (Jack) Yuan</font> for successfully completing the 'Video Dynamics Distillation' project for the ANU Summer Scholars Program!
+- 04/01/2024: My research group is currently at full capacity, and I do not have openings for research interns and assistants. All available industry research sponsorships will be prioritized for my existing students until the end of 2024.
+- 19/09/2023: Congratulations to <font color="blue">Arjun Raj</font>, <font color="blue">Liyun Zhu</font>, <font color="blue">Liwen Luo</font>, and <font color="blue">Qixiang Chen</font>, who were awarded *the Active Intelligence Research Challenge Award* as four master's/honors students! Thanks to the research sponsorship provided by Active Intelligence Corp.
+- 18/09/2023: Congratulations to <font color="blue">Xiuyuan (Jack) Yuan</font> for being awarded *the Summer Research Internship*! Thanks to the ANU School of Computing for providing research funding.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
