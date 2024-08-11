@@ -36,31 +36,7 @@ a:active {
 			<td class="gsc_a_c">(IJCV special issue on our ACCV'22)<br>[<font color="red"><strong>IF: 19.5</strong></font>] <br><a href="https://github.com/LeiWangR/JEANIE" style="color:#000000;"> Code </a></td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2023</span></td>
 		</tr>
-                <tr class="gsc_a_tr" style="background-color:#E5E4E2">
-			<td class="gsc_a_t"><a href="https://ieeexplore.ieee.org/document/9895208"><strong><span class="gsc_a_at">Fusing Higher-Order Features in Graph Neural Networks for Skeleton-Based Action Recognition</span></strong></a>
-				<div class="gs_gray">Z Qin, Y Liu, P Ji, D Kim, <strong>L Wang</strong>, B McKay, S Anwar, T Gedeon</div>
-				<div class="gs_gray">IEEE Transactions on Neural Networks and Learning Systems (<strong>TNNLS</strong>), 4783-4797</div>
-			</td>
-			<td class="gsc_a_c">[<strong><font color="red">IF: 14.255</font></strong>]<br><a href="https://github.com/harutatsuakiyama/Angular-Skeleton-Encoding" style="color:#000000;">Code</a></td>
-			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2021</span></td>
-		</tr>
-                <tr class="gsc_a_tr" style="background-color:#E0FFFF">
-			<td class="gsc_a_t"><strong data-bind="text: title"><a href="https://ieeexplore.ieee.org/document/9521829">Tensor Representations for Action Recognition</a></strong>
-				<div class="gs_gray">P Koniusz,<strong> L Wang</strong>, A Cherian</div>
-				<div class="gs_gray">IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>) 44 (2), 648-665</div>
-			</td>
-			<td class="gsc_a_c">[<strong><font color="red">IF: 24.314</font></strong>]</td>
-			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2020</span></td>
-		</tr>
-                <tr class="gsc_a_tr" style="background-color:#E0FFFF">
-			<td class="gsc_a_t"><a href="https://ieeexplore.ieee.org/document/8753686"><strong><span class="gsc_a_at">A Comparative Review of Recent Kinect-based Action Recognition Algorithms</span></strong></a>
-				<div class="gs_gray"><strong>L Wang</strong>, DQ Huynh, P Koniusz</div>
-				<div class="gs_gray">IEEE Transactions on Image Processing (<strong>TIP</strong>) 29 (1), 15-28</div>
-			</td>
-			<td class="gsc_a_c">[<strong><font color="red">IF: 11.041</font></strong>]<br><a href="https://github.com/LeiWangR/HDG" style="color:#000000;">Dataset & Code</a></td>
-			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2020</span></td>
-		</tr>
-        </tbody>
+  </tbody>
 </table>  
 
 <h2>Conferences</h2>
