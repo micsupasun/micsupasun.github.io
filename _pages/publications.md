@@ -78,6 +78,7 @@ Gender Recognition</span></strong></a>
 				<div class="gs_gray">MSc Project and Dissertation, University of Essex</div>
 			</td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">Dec 2022</span></td>
+      <br><a href="https://github.com/LeiWangR/JEANIE" style="color:#000000;"> link </a>, <a href="https://github.com/LeiWangR/JEANIE" style="color:#000000;"> Code </a>
 		</tr>
 	</tbody>
 </table>
