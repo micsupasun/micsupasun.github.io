@@ -35,7 +35,7 @@ Gender Recognition</span></strong></a>
 				<div class="gs_gray"><strong>S Khumpraphan</strong>, G Huang, C Luo</div>
 				<div class="gs_gray">IEEE Transactions on Affective Computing (<strong>IJCV</strong>), 1-32</div>
 			</td>
-			[<font color="red"><strong>IF: 9.6</strong></font>] <br><a href="https://github.com/LeiWangR/JEANIE" style="color:#000000;"> Code </a></td>
+			<td class="gsc_a_c"><br>[<font color="red"><strong>IF: 9.6</strong></font>] <br><a href="https://github.com/LeiWangR/JEANIE" style="color:#000000;"> Code </a></td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
 		</tr>
   </tbody>
