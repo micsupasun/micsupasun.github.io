@@ -73,12 +73,12 @@ Gender Recognition</span></strong></a>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
 		<tr class="gsc_a_tr">
-			<td class="gsc_a_t"><a href="https://openresearch-repository.anu.edu.au/bitstream/1885/301236/1/ANU_PhD_Thesis_corrected.pdf"><strong><span class="gsc_a_at">Comparative speech emotion recognition in multiple models and multiple datasets</span></strong></a><br />
+			<td class="gsc_a_t"><a href="https://github.com/micsupasun/university_of_essex/tree/main/MSc_project_and_dissertation"><strong><span class="gsc_a_at">Comparative speech emotion recognition in multiple models and multiple datasets</span></strong></a><br />
 				<div class="gs_gray"><strong>S Khumpraphan</strong></div>
 				<div class="gs_gray">MSc Project and Dissertation, University of Essex</div>
 			</td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">Dec 2022</span>
-      <br><a href="https://github.com/LeiWangR/JEANIE" style="color:#000000;"> Code </a>
+      <br><a href="https://github.com/micsupasun/university_of_essex/blob/main/MSc_project_and_dissertation/only_emotion.ipynb" style="color:#000000;"> Code </a>
       </td>
 		</tr>
 	</tbody>
