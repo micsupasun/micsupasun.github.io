@@ -23,17 +23,7 @@ a:active {
 }
 </style>
 
-<!-- {% if author.googlescholar %}
-  You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=VWCZLXgAAAAJ&hl=en).
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %} 
-  {% include archive-single.html %}
-{% endfor %} -->
-
-<!-- You can find my published articles on my [Google Scholar](https://scholar.google.com/citations?user=VWCZLXgAAAAJ&hl=en) profile. -->
+<!-- You can find my published articles on my [Google Scholar](google_scholar_website) profile. -->
 
 <h2>Journals</h2>
 <table id="gsc_a_t">
@@ -84,7 +74,7 @@ a:active {
 			<td class="gsc_a_c">[<font color="red"><strong>A*</strong>, accepted</font>]<br><a href="https://github.com/sato-team/Stable-Text-to-motion-Framework" style="color:#000000;">Code</a>, <a href="https://sato-team.github.io/Stable-Text-to-Motion-Framework/" style="color:#000000;">Project website</a></td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
 		</tr>
-		<tr class="gsc_a_tr"> <!--  style="background-color:#E0FFFF" -->
+		<tr class="gsc_a_tr">
 			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2310.05615.pdf"><strong><span class="gsc_a_at">Adaptive Multi-head Contrastive Learning</span></strong></a>
 				<div class="gs_gray"><strong>L Wang</strong>, P Koniusz, T Gedeon, L Zheng</div>
 				<div class="gs_gray">European Conference on Computer Vision (<strong>ECCV</strong>)</div>
@@ -166,7 +156,6 @@ a:active {
 		</tr>
 	</tbody>
 </table>
-<!-- <h3>&nbsp;</h3> -->
 <h2>Patents</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
@@ -175,7 +164,6 @@ a:active {
 				<div class="gs_gray"><strong>L Wang</strong></div>
 				<div class="gs_gray">US patent (provisional, SN 63/326,525)</div>
 			</td>
-<!-- 			<td class="gsc_a_c">&nbsp;</td> -->
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2022</span></td>
 		</tr>
 		<tr class="gsc_a_tr" style="background-color:#FFFFE0">
@@ -183,7 +171,6 @@ a:active {
 				<div class="gs_gray"><strong>L Wang</strong>, G Woods</div>
 				<div class="gs_gray">AU Patent AU 2,019,903,775</div>
 			</td>
-<!-- 			<td class="gsc_a_c">&nbsp;</td> -->
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2019</span></td>
 		</tr>
 		<tr class="gsc_a_tr" style="background-color:#FFFFE0">
@@ -204,27 +191,18 @@ a:active {
 				<div class="gs_gray"><strong>L Wang</strong></div>
 				<div class="gs_gray">PhD thesis<font color="blue">*</font>, The Australian National University</div>
 			</td>
-<!-- 			<td class="gsc_a_c">&nbsp;</td> -->
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">Nov 2023</span></td>
 		</tr>
 		<tr class="gsc_a_tr" style="background-color:#FFE4E1">
-			<!-- https://www.researchgate.net/profile/Lei_Wang51/publication/332369012_Analysis_and_Evaluation_of_Kinect-based_Action_Recognition_Algorithms/links/5cb001be4585156cd7916b18/Analysis-and-Evaluation-of-Kinect-based-Action-Recognition-Algorithms.pdf -->
 			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2112.08626.pdf"><strong><span class="gsc_a_at">Analysis and Evaluation of Kinect-based Action Recognition Algorithms</span></strong></a><br />
 				<div class="gs_gray"><strong>L Wang</strong></div>
 				<div class="gs_gray">Master&rsquo;s thesis, The University of Western Australia</div>
 			</td>
-<!-- 			<td class="gsc_a_c">&nbsp;</td> -->
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">Nov 2017</span></td>
 		</tr>
 	</tbody>
 </table>
-<p style="font-family:Arial; font-size: 12px; color: blue">
-*: I would like to extend my heartfelt gratitude to three esteemed PhD thesis examiners, namely <a href="https://lingqiao-adelaide.github.io/lingqiaoliu.github.io/">Dr. Lingqiao Liu</a> (University of Adelaide) and <a href="https://wp8619.github.io/">Dr. Peng Wang</a> (University of Electronic Science and Technology of China), as well as an anonymous examiner, for their invaluable insights, meticulous examination, and constructive feedback on my research work.
-<br>
-*: The 1st chapter of my thesis is an invited talk ("Action Recognition: Past, Present and Future") for 'The Next Generation of International Chinese Young Students Face to Face', Issue 21 of the International Cooperation and Exchange Program Series Activities at Harbin Institute of Technology (Shenzhen). Chapters 2 through 8 comprise published works presented at TIP'20, ICCV'19, ACMMM'21, TPAMI'20, CVPR'23, ECCV'22 (oral), and ACCV'22 (oral, recipient of the Best Student Paper Award). Chapter 9 provides a summary and outlines future work. Other works completed during my PhD, such as contributions to the IJCV special issue on ACCV'22 and presentations at ICASSP (x2, 1 oral), are not included in this thesis.
-</p>
  
-<!-- <p>&nbsp;</p> -->
 <h2>arXiv preprints</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
@@ -236,14 +214,6 @@ a:active {
 			<td class="gsc_a_c">Qixiang Chen conducted this research under the supervision of Lei Wang for his final year honors research project at ANU. He is a recipient of research sponsorship from Active Intelligence Australia Pty Ltd in Perth, Western Australia, including The Active Intelligence Research Challenge Award. [<a href="https://q1xiangchen.github.io/motion-prompts/" style="color:#000000;">Project website</a>]</td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
 		</tr>
-		<!-- <tr class="gsc_a_tr" style="background-color:#E5E4E2">
-			<td class="gsc_a_t"><a href=""><strong><span class="gsc_a_at">Feature Hallucination for Self-supervised Action Recognition</span></strong></a>
-				<div class="gs_gray"><strong>L Wang</strong>, P Koniusz</div>
-				<div class="gs_gray">NA</div>
-			</td>
-			<td class="gsc_a_c">Research report.</td>
-			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
-		</tr> -->
 		<tr class="gsc_a_tr" style="background-color:#FFFFE0">
 			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2402.04857.pdf"><strong><span class="gsc_a_at">Advancing Video Anomaly Detection: A Concise Review and a New Dataset</span></strong></a>
 				<div class="gs_gray">L Zhu, <strong>L Wang</strong>, A Raj, T Gedeon, C Chen</div>
@@ -252,14 +222,6 @@ a:active {
 			<td class="gsc_a_c">Liyun Zhu conducted this research under the supervision of Lei Wang for master's final year research project at ANU. Liyun Zhu and Arjun Raj are recipients of research sponsorship from Active Intelligence Australia Pty Ltd in Perth, Western Australia, which includes The Active Intelligence Research Challenge Award. [<a href="https://msad-dataset.github.io" style="color:#000000;">Project website</a>]</td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
 		</tr>
-		<!-- <tr class="gsc_a_tr" style="background-color:#E5E4E2">
-			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2405.01461"><strong><span class="gsc_a_at">SATO: Stable Text-to-Motion Framework</span></strong></a>
-				<div class="gs_gray">W Chen*, H Xiao*, E Zhang*, L Hu, <strong>L Wang</strong>, M Liu, C Chen</div>
-				<div class="gs_gray">arXiv preprint arXiv:2405.01461</div>
-			</td>
-			<td class="gsc_a_c">*Equal contribution. Research report. [<a href="https://github.com/sato-team/Stable-Text-to-motion-Framework" style="color:#000000;">Code</a>, <a href="https://sato-team.github.io/Stable-Text-to-Motion-Framework/" style="color:#000000;">Project website</a>]</td>
-			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
-		</tr> -->
 		<tr class="gsc_a_tr" style="background-color:#E5E4E2">
 			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2405.10718"><strong><span class="gsc_a_at">SignLLM: Sign Languages Production Large Language Models</span></strong></a>
 				<div class="gs_gray">S Fang, <strong>L Wang</strong>, C Zheng, Y Tian, C Chen</div>
@@ -276,14 +238,6 @@ a:active {
 			<td class="gsc_a_c">Research report. [<a href="https://github.com/liuyvchi/Correctness-aware-calibration" style="color:#000000;">Code</a>]</td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
 		</tr>
-		<!-- <tr class="gsc_a_tr">
-			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2402.03019.pdf"><strong><span class="gsc_a_at">Taylor Videos for Action Recognition</span></strong></a>
-				<div class="gs_gray"><strong>L Wang</strong>, X Yuan, T Gedeon, L Zheng</div>
-				<div class="gs_gray">arXiv preprint arXiv:2402.03019</div>
-			</td>
-			<td class="gsc_a_c">Xiuyuan Yuan conducted the research under the supervision of Dr. Lei Wang in the ANU Summer Scholars Program and is supported by a Summer Research Internship provided by the ANU School of Computing. [<a href="https://github.com/LeiWangR/video-ar" style="color:#000000;">Code</a>]</td>
-			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2024</span></td>
-		</tr> -->
 		<tr class="gsc_a_tr" style="background-color:#E0FFFF">
 			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2112.12668.pdf"><strong><span class="gsc_a_at">3D Skeleton-based Few-shot Action Recognition with JEANIE is not so Naïve</span></strong></a>
 				<div class="gs_gray"><strong>L Wang</strong>, J Liu, P Koniusz</div>
@@ -304,8 +258,3 @@ a:active {
 </table>
 <p>&nbsp;</p>
 
-<font size="3" color="blue">
-	Light cyan highlights the research works during my PhD candidature and light yellow highlights my industrial research works.
-	My theses are in misty rose color and other collaborative research works are in platinum color.
-	Last updated: 04/05/2024.	
-</font>
