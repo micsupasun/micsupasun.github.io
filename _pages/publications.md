@@ -28,7 +28,8 @@ a:active {
 <h2>Journals</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
-		<tr class="gsc_a_tr" style="background-color:#E0FFFF"> 
+		<!-- <tr class="gsc_a_tr" style="background-color:#E0FFFF">  -->
+    <tr class="gsc_a_tr"> 
 			<td class="gsc_a_t"><a href="https://link.springer.com/article/10.1007/s11263-024-02070-2"><strong><span class="gsc_a_at">Meet JEANIE: a Similarity Measure for 3D Skeleton Sequences via Temporal‑Viewpoint Alignment</span></strong></a>
 				<div class="gs_gray"><strong>L Wang</strong>, J Liu, L Zheng, T Gedeon, P Koniusz</div>
 				<div class="gs_gray">International Journal of Computer Vision (<strong>IJCV</strong>), 1-32</div>
@@ -42,7 +43,7 @@ a:active {
 <h2>Conferences</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
-		<tr class="gsc_a_tr" style="background-color:#E5E4E2">
+		<tr class="gsc_a_tr">
 			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2405.01461"><strong><span class="gsc_a_at">SATO: Stable Text-to-Motion Framework</span></strong></a>
 				<div class="gs_gray">W Chen*, H Xiao*, E Zhang*, L Hu, <strong>L Wang</strong>, M Liu, C Chen</div>
 				<div class="gs_gray">ACM Multimedia (<strong>ACM-MM</strong>) (* denotes equal contribution.)</div>
@@ -56,7 +57,7 @@ a:active {
 <h2>Patents</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
-		<tr class="gsc_a_tr" style="background-color:#FFFFE0">
+		<tr class="gsc_a_tr">
 			<td class="gsc_a_t"><a href=""><strong><span class="gsc_a_at">System and Method of Detecting Anomalies from Mass Data</span></strong></a>
 				<div class="gs_gray"><strong>L Wang</strong></div>
 				<div class="gs_gray">US patent (provisional, SN 63/326,525)</div>
@@ -69,7 +70,7 @@ a:active {
 <h2>Theses</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
-		<tr class="gsc_a_tr" style="background-color:#FFE4E1">
+		<tr class="gsc_a_tr">
 			<td class="gsc_a_t"><a href="https://openresearch-repository.anu.edu.au/bitstream/1885/301236/1/ANU_PhD_Thesis_corrected.pdf"><strong><span class="gsc_a_at">Robust Human Action Modelling</span></strong></a><br />
 				<div class="gs_gray"><strong>L Wang</strong></div>
 				<div class="gs_gray">PhD thesis<font color="blue">*</font>, The Australian National University</div>
@@ -82,7 +83,7 @@ a:active {
 <h2>arXiv preprints</h2>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
-		<tr class="gsc_a_tr" style="background-color:#FFFFE0">
+		<tr class="gsc_a_tr">
 			<td class="gsc_a_t"><a href="https://arxiv.org/pdf/2407.03179"><strong><span class="gsc_a_at">Motion meets Attention: Video Motion Prompts</span></strong></a>
 				<div class="gs_gray">Q Chen, <strong>L Wang</strong>, P Koniusz, T Gedeon</div>
 				<div class="gs_gray">arXiv preprint arXiv:2407.03179</div>
