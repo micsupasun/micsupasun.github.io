@@ -35,10 +35,13 @@ He is very passionate about Computer Vision. He has done more than 10 Computer V
 
 - 23/09/2024: I received a PhD studentship in Computer Science at the University of Reading, majoring in Computer Science, working on a project on Leveraging Vision Foundation Models for Zero-Shot Open Vocabulary 3D Scene Understanding, which is about Computer Vision and Natural Language Processing field.
 - 20/01/2023: I received a Master's degree from the University of Essex in Artificial Intelligence, where [I studied many fields and projects in AI](https://github.com/micsupasun/university_of_essex). I got the first-class honors and i also got a top score in Machine Learning and Text Analytics course!!!.
+- 30/04/2020: I participated in [the Wongnai Hackathon](https://github.com/micsupasun/hackathon/blob/main/APRIORI.ipynb). I made it to the final 16 out of 270 teams. I did a project on product promotion design, such as buy one get one free. I use the APRIORI model.
+- 13/09/2019: I received a Bachelor's degree from Thammasat University in Software Engineering, where I learned about languages ​​and frameworks of C, Python, Java, Java Script, and PHP.
+- 10/10/2018: I participated in [the Techjam hackathon 2018](https://github.com/micsupasun/hackathon/blob/main/tech_jam.ipynb), where I made it to the top 8 out of 1,476 teams. I predicted customer revenue. I use XGBroost model which has an accuracy of 91.07 percent.
 - 31/07/2017: I received a [Faculty of Engineer Scholarship](https://github.com/micsupasun/certificate/blob/main/National_Central_University_Summer_Short_Data_Scientist_Course_Program_Certification.pdf) at the National Central University in Taiwan, which was a summer course (3 months) on computational geometry and Introduction to Data Science subjects.
-- 00/00/0000: I received a Bachelor's degree from Thammasat University in Software Engineering, where I learned about languages ​​and frameworks of C, Python, Java, Java Script, and PHP.
-- 00/00/0000: I participated in the Techjam hackathon 2018, where I made it to the top 8 out of 1,476 teams. I predicted customer revenue. Which has an accuracy of 91.07 percent
-- 00/00/0000: I participated in the Wongnai Hackathon. I made it to the final 16 out of 270 teams. I did a project on product promotion design, such as buy one get one free. It uses the APRIORI model.
+
+
+
 
 
 
