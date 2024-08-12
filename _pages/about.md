@@ -33,7 +33,14 @@ He is very passionate about Computer Vision. He has done more than 10 Computer V
 
 <h2>Recent News</h2>
 
-I personally do not have any news; the most exciting updates are coming from my talented students!
+- 00/00/0000: I received a PhD studentship in Computer Science at the University of Reading, majoring in Computer Science, working on a project on Leveraging Vision Foundation Models for Zero-Shot Open Vocabulary 3D Scene Understanding, which is about Computer Vision and Natural Language Processing field.
+- 00/00/0000: I received a Master's degree from the University of Essex in Artificial Intelligence, where I studied many fields and projects in AI.
+- 00/00/0000: I received a Faculty of Engineer Scholarship at the National Central University in Taiwan, which was a summer course (3 months) on computational geometry and the subject of Introduction to Data Science.
+- 00/00/0000: I received a Bachelor's degree from Thammasat University in Software Engineering, where I learned about languages ​​and frameworks of C, Python, Java, Java Script, and PHP.
+- 00/00/0000: I participated in the Techjam hackathon 2018, where I made it to the top 8 out of 1,476 teams. I predicted customer revenue. Which has an accuracy of 91.07 percent
+- 00/00/0000: I participated in the Wongnai Hackathon. I made it to the final 16 out of 270 teams. I did a project on product promotion design, such as buy one get one free. It uses the APRIORI model.
+
+<!-- I personally do not have any news; the most exciting updates are coming from my talented students!
 
 - 02/08/2024: Welcome <font color="blue">Arjun Raj</font> to my research group for the academic research project. Many thanks to <font color="blue">Arjun Raj</font> and the [research team](https://time.anu.edu.au/team/) for establishing the Temporal Intelligence and Motion Extraction ([TIME](https://time.anu.edu.au)) Lab.
 - 29/07/2024: Welcome <font color="blue">Yifan Chen</font> and <font color="blue">Gennie Nguyen</font> to my research group for their final year research project.
@@ -48,5 +55,4 @@ I personally do not have any news; the most exciting updates are coming from my 
 - 02/02/2024: Congratulations to <font color="blue">Xiuyuan (Jack) Yuan</font> for successfully completing the 'Video Dynamics Distillation' project for the ANU Summer Scholars Program!
 - 04/01/2024: My research group is currently at full capacity, and I do not have openings for research interns and assistants. All available industry research sponsorships will be prioritized for my existing students until the end of 2024.
 - 19/09/2023: Congratulations to <font color="blue">Arjun Raj</font>, <font color="blue">Liyun Zhu</font>, <font color="blue">Liwen Luo</font>, and <font color="blue">Qixiang Chen</font>, who were awarded *the Active Intelligence Research Challenge Award* as four master's/honors students! Thanks to the research sponsorship provided by Active Intelligence Corp.
-- 18/09/2023: Congratulations to <font color="blue">Xiuyuan (Jack) Yuan</font> for being awarded *the Summer Research Internship*! Thanks to the ANU School of Computing for providing research funding.
-
+- 18/09/2023: Congratulations to <font color="blue">Xiuyuan (Jack) Yuan</font> for being awarded *the Summer Research Internship*! Thanks to the ANU School of Computing for providing research funding. -->
