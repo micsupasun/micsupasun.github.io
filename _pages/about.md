@@ -34,7 +34,7 @@ He is very passionate about Computer Vision. He has done more than 10 Computer V
 <h2>Recent News</h2>
 
 - 00/00/0000: I received a PhD studentship in Computer Science at the University of Reading, majoring in Computer Science, working on a project on Leveraging Vision Foundation Models for Zero-Shot Open Vocabulary 3D Scene Understanding, which is about Computer Vision and Natural Language Processing field.
-- 00/00/0000: I received a Master's degree from the University of Essex in Artificial Intelligence, where I studied many fields and projects in AI.
+- 00/00/0000: I received a Master's degree from the University of Essex in Artificial Intelligence, where I studied many fields and projects in AI. I got the first-class honors and i also got a top score in Machine Learning and Text Analytics course!!!.
 - 00/00/0000: I received a Faculty of Engineer Scholarship at the National Central University in Taiwan, which was a summer course (3 months) on computational geometry and the subject of Introduction to Data Science.
 - 00/00/0000: I received a Bachelor's degree from Thammasat University in Software Engineering, where I learned about languages ​​and frameworks of C, Python, Java, Java Script, and PHP.
 - 00/00/0000: I participated in the Techjam hackathon 2018, where I made it to the top 8 out of 1,476 teams. I predicted customer revenue. Which has an accuracy of 91.07 percent
