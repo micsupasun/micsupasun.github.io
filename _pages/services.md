@@ -25,38 +25,7 @@ a:active {
 
 <!-- Paper Reviewing====== -->
 
-<h2>Review</h2>
-
-I am serving as a **Guest Editor** ([service certificate](../files/Editor-Certificate-648661.pdf)) for the MDPI open-access journal Electronics [Q2, h-index 83], Special Issue titled 'Motion-centric Video Processing'. 
-
-I am serving as an **Area Chair** for ACM Multimedia 2024.
-
-I have the honor of serving as an **Area Chair** for the 27th International Conference on Pattern Recognition (ICPR 2024) by invitation from [Prof. Cheng-Lin Liu](http://www.nlpr.ia.ac.cn/liucl/) (CASIA).
-
-I regularly review technical papers for the following journals, conferences & workshops. 
-
-<!-- <font color="blue">I write high quality reviews for papers in my research interests, e.g., action recognition, anomaly detection, one- and few-shot learning, deep learning, tensor learning, domain adaptation, etc.</font> -->
-
-* **Journals**:
-  * IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), International Journal of Computer Vision (IJCV), ACM Computing Surveys (ACM CSUR), Big Data Mining and Analytics (BDMA),
-  * IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), IEEE Transactions on Multimedia (T-MM), Pattern Recognition (PR), Computer Vision and Image Understanding (CVIU), Neurocomputing,
-  * Neural Computing and Applications (NCAA), Journal of Visual Communication and Image Representation (JVCI), Signal, Image and Video Processing (SIVP), The Visual Computer (TVCJ), Algorithms, Multimedia Systems, Machine Learning and Knowledge Extraction  (MAKE), Sensors, Electronics, Journal of Imaging, Future Internet, Information, Healthcare, IET Computer Vision, Electronics Letters, AI Communications, Global Health Economics and Sustainability
- 
-* **Conferences**:
-  * NeurIPS 2024, ICML 2024, ICLR 2024, AAAI 2024, NeurIPS 2023, ICML 2023, ICLR 2023, AAAI 2023, NeurIPS 2022, AAAI 2022, ICML 2022, 
-  * ECCV 2024, CVPR 2024, ICCV 2023, CVPR 2023, CVPR 2022, ECCV 2022 (<strong><font color="red">outstanding reviewer</font></strong>),
-  * WACV 2025, WACV 2024, BMVC 2024, BMVC 2023, BMVC 2022, BMVC 2021, BMVC 2020, ACCV 2024,
-  * IEEE Conference on Artificial Intelligence (IEEE CAI 2023)
-
-* **Workshops**:
-  * 3rd Computer Vision for Metaverse Workshop (CV4Metaverse at ECCV 2024),
-  * Deep Vision Workshop (CVPR 2020), 
-  * Vision Datasets Understanding (1st VDU at CVPR 2022, 2nd VDU at CVPR 2023, 3rd VDU at CVPR 2024),
-  * The AI City Challenge Workshop at CVPR 2023, CVPR 2024
- 
-<!-- I also serve as a thesis examiner for master's and honors theses at the ANU College of Engineering, Computing & Cybernetics: S1 2023, S2 2023. -->
-I also serve as a **thesis examiner** for master's and honors theses at the ANU College of Engineering, Computing & Cybernetics for the academic terms S1 2023, S2 2023 and S1 2024.
-
+<!-- <h2>Review</h2> -->
 
 <h2>Invited Talk</h2>
 
