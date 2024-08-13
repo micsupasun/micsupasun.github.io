@@ -25,7 +25,7 @@ a:active {
 
 <!-- <h2>Review</h2> -->
 
-<h2>Invited Talk</h2>
+<h2>General Seminar</h2>
 
 <table style="width:100%" border="1px solid black;">
   <tr>
@@ -65,7 +65,7 @@ a:active {
     <td>28 May 2019</td>
   </tr>
   <tr>
-    <td>PTTDnextandRISEacademy <a href="test">[image]</a></td>
+    <td>PTTD next and RISE academy <a href="test">[image]</a></td>
     <td>Gaysorn Tower, Bangkok, Thailand</td>
     <td>PTTDnextandRISEacademy: Witsawa Company, which is the company that I used to work for as a Full Stack Developer, participated in a discussion to exchange knowledge with famous companies such as PTT Digital and Rise Academy about the influence of AI on daily life and the use of AI in business.</td>
     <td>14 Jun 2018</td>
@@ -81,7 +81,7 @@ a:active {
 
 
 
-<!-- <h2>Research Seminar</h2>
+<h2>Research Seminar</h2>
 
 <table style="width:100%" border="1px solid black;">
   <tr>
@@ -91,18 +91,12 @@ a:active {
     <th>Date</th>
   </tr>
   <tr>
-    <td>Robust Human Action Modelling <a href="../files/oral_presentation_slides.pdf">[slides]</a></td>
-    <td>ANU College of Engineering, Computing and Cybernetics</td>
-    <td>PhD completion seminar: This seminar covers the following topics (i) an introduction to action recognition (AR) and a comparative review of AR methods, (ii) video-based action recognition, (iii) skeleton-based action recognition, and (iv) one- and few-shot action recognition. </td>
-    <td>2 Feb 2023</td>
+    <td>... in progress <a href="in progress">[slides]</a></td>
+    <td>... in progress</td>
+    <td>... in progress</td>
+    <td>... in progress</td>
   </tr>
-  <tr>
-    <td>Analysis and Evaluation of Kinect-based Action Recognition Algorithms <a href="../files/GENG5512ResearchSeminarv4.pdf">[slides]</a></td>
-    <td>UWA's Department of Computer Science and Software Engineering</td>
-    <td>MPE Engineering Research Project: In this seminar, I discussed (i) applications, issues, and techniques in action recognition (AR) and (ii) an analysis and evaluation of four handcrafted AR algorithms. </td>
-    <td>Oct 2017</td>
-  </tr>
-</table> -->
+</table>
 
 
 
