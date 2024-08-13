@@ -34,15 +34,22 @@ a:active {
     <th>Description</th>
     <th>Date</th>
   </tr>
-  <tr>
+  <!-- <tr>
     <td>Action Recognition: Past, Present and Future <a href="../files/AR_PPF_Lei.pdf">[slides]</a></td>
     <td><a href="https://dl2link.com">Prof. Haijun Zhang</a>, <br> Department of Computer Science, <br> Harbin Institute of Technology, <br> Shenzhen, China</td>
     <td>"The next generation of international Chinese young students face to face" Issue 21 <br> International Cooperation and Exchange Program Series Activities of Harbin Institute of Technology (Shenzhen) </td>
     <td>12 Aug 2023</td>
+  </tr> -->
+  <tr>
+    <td>AI Ultimatum: The Secret Key to Unlock Your Wealth <a href="test">[slides]</a></td>
+    <td>Bangkok, Thailand</td>
+    <td>The WISDOM Investment Forum: I attended a seminar on various investments in AI and the future of AI. The title is "AI Ultimatum: The Secret Key to Unlock Your Wealth"</td>
+    <td>12 Aug 2023</td>
   </tr>
 </table>
 
-<h2>Research Seminar</h2>
+
+<!-- <h2>Research Seminar</h2>
 
 <table style="width:100%" border="1px solid black;">
   <tr>
@@ -63,4 +70,28 @@ a:active {
     <td>MPE Engineering Research Project: In this seminar, I discussed (i) applications, issues, and techniques in action recognition (AR) and (ii) an analysis and evaluation of four handcrafted AR algorithms. </td>
     <td>Oct 2017</td>
   </tr>
-</table>
+</table> -->
+
+
+
+1. 17/11/2023
+The WISDOM Investment Forum: I attended a seminar on various investments in AI and the future of AI. The title is "AI Ultimatum: The Secret Key to Unlock Your Wealth"
+
+2. 26/09/2022
+I had an opportunity to attend an event in the Google office in London. The motto of the event was "Building for Everyone", it was an event entirely focused on accessibility and inclusion in technology, with the mission to educate developers to incorporate accessibility best practices into their products, and to raise awareness about accessibility guidelines and tools.
+I really enjoyed the event and was able to connect with some brilliant developers.
+
+3. 30/03/2017
+When I was still a bachelor's degree student at Thammasat University, I had the opportunity to seminar at Microsoft (Thailand) Co., Ltd. about various careers in QA, Back-end, Front-end, Data Analyst, Data Scientist, Data Engineering.
+
+4. 28/08/2019
+trinity roots
+Trinity Roots, Which is the company I used to work for, was a representative to speak at the Revolutionizing Business event at Digital Park.
+
+5. 28/05/2019
+Botnoi
+Botnoi Consulting, which is the company I used to work for, was one of the 12 companies that participated in the Techsauce Global Summit to talk about the future of AI.
+
+6. 14/06/2018
+witsawa
+PTTDnextandRISEacademy: Witsawa Company, which is the company that I used to work for as a Full Stack Developer, participated in a discussion to exchange knowledge with famous companies such as PTT Digital and Rise Academy about the influence of AI on daily life and the use of AI in business.
