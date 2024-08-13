@@ -41,13 +41,18 @@ a:active {
     <td>12 Aug 2023</td>
   </tr> -->
   <tr>
-    <td>AI Ultimatum: The Secret Key to Unlock Your Wealth <a href="test">[slides]</a></td>
+    <td>AI Ultimatum: The Secret Key to Unlock Your Wealth <a href="test">[image]</a></td>
     <td>Bangkok, Thailand</td>
     <td>The WISDOM Investment Forum: I attended a seminar on various investments in AI and the future of AI. The title is "AI Ultimatum: The Secret Key to Unlock Your Wealth"</td>
-    <td>12 Aug 2023</td>
+    <td>17 Nov 2023</td>
+  </tr>
+  <tr>
+    <td>Building for Everyone by Google <a href="test">[image]</a></td>
+    <td>Google office, London</td>
+    <td>I had an opportunity to attend an event in the Google office in London. The motto of the event was "Building for Everyone", it was an event entirely focused on accessibility and inclusion in technology, with the mission to educate developers to incorporate accessibility best practices into their products, and to raise awareness about accessibility guidelines and tools.<br>I really enjoyed the event and was able to connect with some brilliant developers.</td>
+    <td>26 Sep 2022</td>
   </tr>
 </table>
-
 
 <!-- <h2>Research Seminar</h2>
 
@@ -71,15 +76,6 @@ a:active {
     <td>Oct 2017</td>
   </tr>
 </table> -->
-
-
-
-1. 17/11/2023
-The WISDOM Investment Forum: I attended a seminar on various investments in AI and the future of AI. The title is "AI Ultimatum: The Secret Key to Unlock Your Wealth"
-
-2. 26/09/2022
-I had an opportunity to attend an event in the Google office in London. The motto of the event was "Building for Everyone", it was an event entirely focused on accessibility and inclusion in technology, with the mission to educate developers to incorporate accessibility best practices into their products, and to raise awareness about accessibility guidelines and tools.
-I really enjoyed the event and was able to connect with some brilliant developers.
 
 3. 30/03/2017
 When I was still a bachelor's degree student at Thammasat University, I had the opportunity to seminar at Microsoft (Thailand) Co., Ltd. about various careers in QA, Back-end, Front-end, Data Analyst, Data Scientist, Data Engineering.
