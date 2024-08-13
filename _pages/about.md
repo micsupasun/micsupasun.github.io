@@ -16,7 +16,7 @@ He was a Full Stack Developer Internship for Witsawa Corporation Co., Ltd., expe
 
 He has broad research interests in machine learning, Deep Learning, and Computer Vision. His current research interests include Natural Language Processing.
 
-He is very passionate about Computer Vision. He has done more than 10 Computer Vision projects, including object detection, object distance, product recommendation, virtual keyboard, and volume control. In addition, He has done more than 30 NLP projects, including Text Classification, Question Answering, Generate Transformer, Document Classification, Named Entity Recognition, Part of Speech Tagging, Sentiment analysis, text preprocessing, Text to Speech, Word embedding, Word sentence representation, Soundex, and Dialogflow.
+He is very passionate about Computer Vision. He has done more than [10 Computer Vision projects](https://github.com/micsupasun/computer_vision), including object detection, object distance, product recommendation, virtual keyboard, and volume control. In addition, He has done more than [30 NLP projects](https://github.com/micsupasun/natural_language_processing), including Text Classification, Question Answering, Generate Transformer, Document Classification, Named Entity Recognition, Part of Speech Tagging, Sentiment analysis, text preprocessing, Text to Speech, Word embedding, Word sentence representation, Soundex, and Dialogflow.
 
 
 
@@ -38,7 +38,7 @@ He is very passionate about Computer Vision. He has done more than 10 Computer V
 - 30/04/2020: I participated in [the Wongnai Hackathon](https://github.com/micsupasun/hackathon/blob/main/product_promotion/README.md). I made it to the final 16 out of 270 teams. I did a project on product promotion design, such as buy one get one free. I use the APRIORI model.
 - 13/09/2019: I received a Bachelor's degree from Thammasat University in Software Engineering, where I learned about languages ​​and frameworks of C, Python, Java, Java Script, and PHP.
 - 10/10/2018: I participated in [the Techjam hackathon 2018](https://github.com/micsupasun/hackathon/blob/main/customer_revenue/README.md), where I made it to the top 8 out of 1,476 teams. I predicted customer revenue. I use XGBroost model which has an accuracy of 91.07 percent.
-- 31/07/2017: I received a [Faculty of Engineer Scholarship](https://github.com/micsupasun/certificate/blob/main/National_Central_University_Summer_Short_Data_Scientist_Course_Program_Certification.pdf) at the National Central University in Taiwan, which was a summer course (3 months) on computational geometry and Introduction to Data Science subjects.
+- 31/07/2017: I received a [Faculty of Engineer Scholarship](https://github.com/micsupasun/certificate/blob/main/NCU_certificate/README.md) at the National Central University in Taiwan, which was a summer course (3 months) on computational geometry and Introduction to Data Science subjects.
 
 
 
