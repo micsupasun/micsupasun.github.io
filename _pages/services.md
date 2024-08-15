@@ -92,7 +92,7 @@ a:active {
   </tr>
   <tr>
     <td>Research Proposal <a href="https://github.com/micsupasun/university_of_reading/blob/main/research_proposal/research_proposal_Muhammad_Shahzad.pdf">[slides]</a></td>
-    <td>Computer Science; School of Mathematical, Physical and Computational Sciences</td>
+    <td>Computer Science; School of Mathematical, Physical and Computational Sciences, The University of Reading</td>
     <td>This file describes the research that I will do to study for my Ph.D. 3 - 4 years, including Abstract, Introduction, Research Questions, Expected Outcomes, Methodology, Conclusion, Candidate profile, and Project Plan.</td>
     <td>12 Jun 2024</td>
   </tr>
