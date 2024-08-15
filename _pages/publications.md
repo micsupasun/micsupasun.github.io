@@ -75,13 +75,24 @@ Gender Recognition</span></strong></a>
 <table id="gsc_a_t">
 	<tbody id="gsc_a_b">
 		<tr class="gsc_a_tr">
+			<td class="gsc_a_t"><a href="https://github.com/micsupasun/university_of_reading/tree/main/research_proposal"><strong><span class="gsc_a_at">Leveraging Vision Foundation Models for Zero-Shot Open Vocabulary 3D Scene Understanding</span></strong></a><br />
+				<div class="gs_gray"><strong>S Khumpraphan</strong></div>
+				<div class="gs_gray">Research proposal, University of Reading</div>
+			</td>
+			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">Jun 2024</span>
+      			<br><a href="https://github.com/micsupasun/university_of_reading/blob/main/research_proposal/research_proposal_Muhammad_Shahzad.pdf" style="color:#000000;"> Slide </a>
+      		</td>
+		</tr>
+	</tbody>
+	<tbody id="gsc_a_b">
+		<tr class="gsc_a_tr">
 			<td class="gsc_a_t"><a href="https://github.com/micsupasun/university_of_essex/tree/main/MSc_project_and_dissertation"><strong><span class="gsc_a_at">Comparative speech emotion recognition in multiple models and multiple datasets</span></strong></a><br />
 				<div class="gs_gray"><strong>S Khumpraphan</strong></div>
 				<div class="gs_gray">MSc Project and Dissertation, University of Essex</div>
 			</td>
 			<td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">Dec 2022</span>
-      <br><a href="https://github.com/micsupasun/university_of_essex/blob/main/MSc_project_and_dissertation/only_emotion.ipynb" style="color:#000000;"> Code </a>
-      </td>
+      			<br><a href="https://github.com/micsupasun/university_of_essex/blob/main/MSc_project_and_dissertation/only_emotion.ipynb" style="color:#000000;"> Code </a>
+      		</td>
 		</tr>
 	</tbody>
 </table>
