@@ -259,15 +259,7 @@ a:active {
 </table>
 
 
-
-
-
-
-
-
-
-
-<h2><a href="test">test</a></h2>
+<h2><a href="https://github.com/micsupasun/university_of_essex">University of Essex</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
     <th>Project</th>
@@ -275,7 +267,47 @@ a:active {
     <th>Description</th>
   </tr>
   <tr>
-    <td>test1 <a href="test">[project]</a></td>
+    <td>Machine Learning<a href="https://github.com/micsupasun/university_of_essex/tree/main/machine_learning">[project]</a></td>
+    <td>Classification,<br>Regression</td>
+    <td>True and False result<br>Target result</td>
+  </tr>
+  <tr>
+    <td>Neural Networks and Deep Learning<a href="https://github.com/micsupasun/university_of_essex/tree/main/neural_networks_and_deep_learning">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Data Science and Decision Making<a href="https://github.com/micsupasun/university_of_essex/tree/main/data_science_and_decision_making">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Big Data for Computational Finance<a href="https://github.com/micsupasun/university_of_essex/tree/main/big_data_for_computational_finance">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Intelligent Systems and Robotics<a href="https://github.com/micsupasun/university_of_essex/tree/main/intelligent_systems_and_robotics">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Text Analytics<a href="https://github.com/micsupasun/university_of_essex/tree/main/text_analytics">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Group Project<a href="https://github.com/micsupasun/university_of_essex/tree/main/group_project">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Professional Practice<a href="https://github.com/micsupasun/university_of_essex/tree/main/professional_practice_and_research_methodology">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Dissertation<a href="https://github.com/micsupasun/university_of_essex/tree/main/MSc_project_and_dissertation">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
