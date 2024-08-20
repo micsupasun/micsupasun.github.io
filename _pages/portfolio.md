@@ -25,7 +25,7 @@ a:active {
 
 <!-- <h2>Review</h2> -->
 
-<h2>General Seminar</h2>
+<h2>General Seminartest s</h2>
 
 <table style="width:100%" border="1px solid black;">
   <tr>
