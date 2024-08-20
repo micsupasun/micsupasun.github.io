@@ -69,7 +69,25 @@ a:active {
 </table>
 
 
-<!-- practice_code[pass]
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+
+
+
+
+practice_code[pass]
 natural_language_processing[pass]
 classification[pass]
 image_processing[pass]
@@ -78,8 +96,7 @@ kaggle[pass]
 company[pass]
 clustering[pass แก้ไขreadmeหน่อย]
 university_of_essex[pass]
-computer_vision[pass]
-hackathon[pass] -->
+hackathon[pass]
 
 
 
