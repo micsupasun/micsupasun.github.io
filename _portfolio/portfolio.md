@@ -431,7 +431,7 @@ a:active {
 
 
 
-university_of_essex[pass]
+
 kaggle[pass]
 image_processing[pass]
 company[pass]
