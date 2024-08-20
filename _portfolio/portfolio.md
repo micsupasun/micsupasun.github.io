@@ -69,6 +69,311 @@ a:active {
 </table>
 
 
+<h2><a href="https://github.com/micsupasun/natural_language_processing">Natural Language Processing</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Extreme Multi-label Text Classification<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>multi-label text classification with news categories<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Custom Bert NLP for Text Classification<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>text classification in Twitter application<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Custom Bert NLP for Question Answering<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Train Bert NLP model for another task<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Document classification with Word Cloud<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Document classification with Latent Dirichlet Allocation<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Document classification with Sentiment Analysis<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>named entity recognition with nltk<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>named entity recognition with spacy<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>named entity recognition with BERT NLP<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>named entity recognition with PyThaiNLP<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Part of Speech Tagging with Machine Learning with CRF<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Part of Speech Tagging with Deep Learning<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Part of Speech Tagging with NLTK<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Part of Speech Tagging with PythaiNLP<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>scrape data with beautiful soup<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>scrape lottery with beautiful soup<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>scrape five websites in Thai language<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>scrape 17 websites in Thai and English language<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Sentiment analysis with bert nlp<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Sentiment analysis with IMDB dataset<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Basic regular expression<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>text preprocessing before train Natural Language Processing<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Custom text-to-speech<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Text to speech pre-train with Nemo tools<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Word embedding and train model<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>custom Word Embedding by Wongnai dataset<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>word sentences and sequence sentences in the dictionary<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Thai word segmentation<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>all types of word sentence representation<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>soundex with flask api<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>dialogflow in the real world<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>text retrieval system<a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
+<h2><a href="test">test</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>test1 <a href="test">[project]</a></td>
+    <td>test2,<br>test3</td>
+    <td>test4</td>
+  </tr>
+</table>
+
 <h2><a href="test">test</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
@@ -87,16 +392,19 @@ a:active {
 
 
 
-practice_code[pass]
-natural_language_processing[pass]
-classification[pass]
-image_processing[pass]
-regression[pass]
-kaggle[pass]
-company[pass]
-clustering[pass แก้ไขreadmeหน่อย]
+
+
 university_of_essex[pass]
+kaggle[pass]
+image_processing[pass]
+company[pass]
 hackathon[pass]
+
+classification[pass]
+regression[pass]
+clustering[pass แก้ไขreadmeหน่อย]
+
+practice_code[pass]
 
 
 
