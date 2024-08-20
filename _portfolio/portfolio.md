@@ -77,177 +77,182 @@ a:active {
     <th>Description</th>
   </tr>
   <tr>
-    <td>Extreme Multi-label Text Classification<a href="test">[project]</a></td>
+    <td>Extreme Multi-label Text Classification<a href="https://github.com/micsupasun/natural_language_processing/blob/main/xmlc-and-xml-classifier">[project]</a></td>
+    <td>Natural Languague Processing,<br>Text Classification,<br>Classification</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>multi-label text classification with news categories<a href="https://github.com/micsupasun/natural_language_processing/tree/main/multi_label_text_classifation_news">[project]</a></td>
+    <td>Natural Languague Processing,<br>Text Classification,<br>Classification</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Custom Bert NLP for Text Classification<a href="https://github.com/micsupasun/natural_language_processing/tree/main/custom_bert_nlp/custom_bert_2_project">[project]</a></td>
+    <td>Natural Languague Processing,<br>Text Classification,<br>Classification</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>text classification in Twitter application<a href="https://github.com/micsupasun/natural_language_processing/tree/main/text_classification_coronavirus_tweets">[project]</a></td>
+    <td>Natural Languague Processing,<br>Text Classification,<br>Classification</td>
+    <td>test4</td>
+  </tr>
+  <tr>
+    <td>Custom Bert NLP for Question Answering<a href="https://github.com/micsupasun/natural_language_processing/tree/main/custom_bert_nlp/custom_bert_2_project">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>multi-label text classification with news categories<a href="test">[project]</a></td>
+    <td>Train Bert NLP model for another task<a href="https://github.com/micsupasun/natural_language_processing/tree/main/custom_bert_nlp/custom_bert_nlp">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Custom Bert NLP for Text Classification<a href="test">[project]</a></td>
+    <td>Document classification with Word Cloud<a href="https://github.com/micsupasun/natural_language_processing/tree/main/document_classification">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>text classification in Twitter application<a href="test">[project]</a></td>
+    <td>Document classification with Latent Dirichlet Allocation<a href="https://github.com/micsupasun/natural_language_processing/tree/main/document_classification">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Custom Bert NLP for Question Answering<a href="test">[project]</a></td>
+    <td>Document classification with Sentiment Analysis<a href="https://github.com/micsupasun/natural_language_processing/tree/main/document_classification">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Train Bert NLP model for another task<a href="test">[project]</a></td>
+    <td>named entity recognition with nltk<a href="https://github.com/micsupasun/natural_language_processing/tree/main/named_entity_recognition">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Document classification with Word Cloud<a href="test">[project]</a></td>
+    <td>named entity recognition with spacy<a href="https://github.com/micsupasun/natural_language_processing/tree/main/named_entity_recognition">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Document classification with Latent Dirichlet Allocation<a href="test">[project]</a></td>
+    <td>named entity recognition with BERT NLP<a href="https://github.com/micsupasun/natural_language_processing/tree/main/named_entity_recognition">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Document classification with Sentiment Analysis<a href="test">[project]</a></td>
+    <td>named entity recognition with PyThaiNLP<a href="https://github.com/micsupasun/natural_language_processing/tree/main/named_entity_recognition">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>named entity recognition with nltk<a href="test">[project]</a></td>
+    <td>Part of Speech Tagging with Machine Learning with CRF<a href="https://github.com/micsupasun/natural_language_processing/tree/main/part_of_speech_taggaing">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>named entity recognition with spacy<a href="test">[project]</a></td>
+    <td>Part of Speech Tagging with Deep Learning<a href="https://github.com/micsupasun/natural_language_processing/tree/main/part_of_speech_taggaing">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>named entity recognition with BERT NLP<a href="test">[project]</a></td>
+    <td>Part of Speech Tagging with NLTK<a href="https://github.com/micsupasun/natural_language_processing/tree/main/part_of_speech_taggaing">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>named entity recognition with PyThaiNLP<a href="test">[project]</a></td>
+    <td>Part of Speech Tagging with PythaiNLP<a href="https://github.com/micsupasun/natural_language_processing/tree/main/part_of_speech_taggaing">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Part of Speech Tagging with Machine Learning with CRF<a href="test">[project]</a></td>
+    <td>scrape data with beautiful soup<a href="https://github.com/micsupasun/natural_language_processing/tree/main/scrape_data/scrape_data_basic_beautiful_soup">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Part of Speech Tagging with Deep Learning<a href="test">[project]</a></td>
+    <td>scrape lottery with beautiful soup<a href="https://github.com/micsupasun/natural_language_processing/tree/main/scrape_data/scrape_data_historical_lotto_beautiful_soup">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Part of Speech Tagging with NLTK<a href="test">[project]</a></td>
+    <td>scrape data with selenium<a href="https://github.com/micsupasun/natural_language_processing/tree/main/scrape_data/scrape_data_basic_selenium">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Part of Speech Tagging with PythaiNLP<a href="test">[project]</a></td>
+    <td>scrape five websites in Thai language<a href="https://github.com/micsupasun/natural_language_processing/tree/main/scrape_data/scrape_5_website_es">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>scrape data with beautiful soup<a href="test">[project]</a></td>
+    <td>scrape 17 websites in Thai and English language<a href="https://github.com/micsupasun/natural_language_processing/tree/main/scrape_data/scrape_17_websites">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>scrape lottery with beautiful soup<a href="test">[project]</a></td>
+    <td>Sentiment analysis with bert nlp<a href="https://github.com/micsupasun/natural_language_processing/tree/main/sentiment_analysis/sentiment_analysis_bert_nlp">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>scrape five websites in Thai language<a href="test">[project]</a></td>
+    <td>Sentiment analysis with IMDB dataset<a href="https://github.com/micsupasun/natural_language_processing/tree/main/sentiment_analysis/imdb_sentiment_analysis">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>scrape 17 websites in Thai and English language<a href="test">[project]</a></td>
+    <td>Basic regular expression<a href="https://github.com/micsupasun/natural_language_processing/tree/main/text_preprocessing/basic_regular_expression">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Sentiment analysis with bert nlp<a href="test">[project]</a></td>
+    <td>text preprocessing before train Natural Language Processing<a href="https://github.com/micsupasun/natural_language_processing/tree/main/text_preprocessing/text_preprocessing">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Sentiment analysis with IMDB dataset<a href="test">[project]</a></td>
+    <td>Custom text-to-speech<a href="https://github.com/micsupasun/natural_language_processing/tree/main/text_to_speech/custom_text_to_speech">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Basic regular expression<a href="test">[project]</a></td>
+    <td>Text to speech pre-train with Nemo tools<a href="https://github.com/micsupasun/natural_language_processing/tree/main/text_to_speech/text_to_speech_pretrain_with_nemo_tools">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>text preprocessing before train Natural Language Processing<a href="test">[project]</a></td>
+    <td>Word embedding and train model<a href="https://github.com/micsupasun/natural_language_processing/tree/main/word_embedding_and_train_model">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Custom text-to-speech<a href="test">[project]</a></td>
+    <td>custom Word Embedding by Wongnai dataset<a href="https://github.com/micsupasun/natural_language_processing/tree/main/word_sentence_representation/create_Word_Embedding_Thai_WONGNAI">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Text to speech pre-train with Nemo tools<a href="test">[project]</a></td>
+    <td>word sentences and sequence sentences in the dictionary<a href="https://github.com/micsupasun/natural_language_processing/tree/main/word_sentence_representation/create_dictionary_word_with_tokenizer">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Word embedding and train model<a href="test">[project]</a></td>
+    <td>Thai word segmentation<a href="https://github.com/micsupasun/natural_language_processing/tree/main/word_sentence_representation/thai_word_segmentation">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>custom Word Embedding by Wongnai dataset<a href="test">[project]</a></td>
+    <td>all types of word sentence representation<a href="https://github.com/micsupasun/natural_language_processing/tree/main/word_sentence_representation/word_sentence_representation">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>word sentences and sequence sentences in the dictionary<a href="test">[project]</a></td>
+    <td>soundex with flask api<a href="https://github.com/micsupasun/natural_language_processing/tree/main/sound_dex_api-flask">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>Thai word segmentation<a href="test">[project]</a></td>
+    <td>dialogflow in the real world<a href="https://github.com/micsupasun/natural_language_processing/tree/main/dialogflow/bridge_stone">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
   <tr>
-    <td>all types of word sentence representation<a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
-  </tr>
-  <tr>
-    <td>soundex with flask api<a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
-  </tr>
-  <tr>
-    <td>dialogflow in the real world<a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
-  </tr>
-  <tr>
-    <td>text retrieval system<a href="test">[project]</a></td>
+    <td>text retrieval system<a href="https://github.com/micsupasun/natural_language_processing/tree/main/text_retrieval_system">[project]</a></td>
     <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
