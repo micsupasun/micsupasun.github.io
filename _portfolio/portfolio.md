@@ -78,7 +78,7 @@ a:active {
   </tr>
   <tr>
     <td>test1 <a href="test">[project]</a></td>
-    <td>test2<br>test3</td>
+    <td>test2,<br>test3</td>
     <td>test4</td>
   </tr>
 </table>
