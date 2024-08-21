@@ -278,13 +278,13 @@ a:active {
   </tr>
   <tr>
     <td>Data Science and Decision Making<a href="https://github.com/micsupasun/university_of_essex/tree/main/data_science_and_decision_making">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>project agrotech<br>NumPy, Bootstrapping, Regression and Classification methods, Clustering algorithm, Recommendation System, CNN, RNN, Advanced Transfer learning<br>Classification, Regression, Clustering, Association Rule, Transfer Learning</td>
+    <td>The aim of this project is to develop a system that can help growers plan ahead for their crops by giving them information about the expected size of the crops in a future date. Using this system, they should be able to talk to supermarkets about when and how much produce they can sell them, resulting in a measurable gain for the growers’ business. To do this, they have given you historical data from previous crops, as well as weather data.</td>
   </tr>
   <tr>
     <td>Big Data for Computational Finance<a href="https://github.com/micsupasun/university_of_essex/tree/main/big_data_for_computational_finance">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Finance,<br>Fraud Detection,<br>classification</td>
+    <td>The research was overwhelmingly successful by measuring whether the models we made could be used in real life. which measured by human guessed do not fraud transaction at all will have an accuracy of about 99.8272514369 percent. In the first step, we used machine learning to predict 9 models, each model using 3 scalars: min_max_scalar,robust_scalar,standard_scalar. This resulted in a total of 27 models, with 14 models outperforming humans. in the second step, We optimize the model to increase accuracy by improving the parameters even further. when we train a model again. We have selected the best parameters and scalar of each model for a total of 9 models. which outperforms the human prediction of 4 models. finally, we use Deep Learning model with Convolution neural network 1 model, which is more efficient than human prediction. With all of the above, we can clearly see that there are 19 models that are accurate enough to be used in real life. The most accurate model was Random Forest, which used the best parameters and scalar with an accuracy of 0.999911 percent and a standard deviation of 0.000050 percent. from the comparison of a test set with a total of 112032 transactions, only 5 transactions have errors. while if humans predict there will be a transaction error is approximately 194 transaction[112032-(112032*99.8272514369/100)]. That makes a very accurate model that can be used in real life because it is much more accurate than humans.</td>
   </tr>
   <tr>
     <td>Intelligent Systems and Robotics<a href="https://github.com/micsupasun/university_of_essex/tree/main/intelligent_systems_and_robotics">[project]</a></td>
