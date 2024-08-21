@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+You can see my <a href="https://leiwangr.github.io/files/CV_21_08_2024.pdf">[CV here].</a></td>
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
