@@ -289,7 +289,7 @@ a:active {
   <tr>
     <td>Intelligent Systems and Robotics<a href="https://github.com/micsupasun/university_of_essex/tree/main/intelligent_systems_and_robotics">[project]</a></td>
     <td>Intelligent Systems and Robotics,<br>PID Controller, Fuzzy Logic</td>
-    <td>To translate the theoretical knowledge gained throughout the course into practice by designing and implementing systems for real mobile robots</td>
+    <td>To translate the theoretical knowledge gained throughout the course into practice by designing and implementing systems for real mobile robots.</td>
   </tr>
   <tr>
     <td>Text Analytics<a href="https://github.com/micsupasun/university_of_essex/tree/main/text_analytics">[project]</a></td>
