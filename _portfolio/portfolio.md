@@ -274,7 +274,7 @@ a:active {
   <tr>
     <td>Neural Networks and Deep Learning<a href="https://github.com/micsupasun/university_of_essex/tree/main/neural_networks_and_deep_learning">[project]</a></td>
     <td>Activation Function,<br>Foward Propagation,<br>Lost Function,<br> backward Propagation</td>
-    <td>Understanding the knowledge of neural networks and diverse models<br>Being able to program to achieve models for a tailored context<br>Being able to apply neural network models (including deep learning models) to a required application</td>
+    <td>Understanding the knowledge of neural networks and diverse models<br>Being able to program to achieve models for a tailored context<br>Being able to apply neural network models (including deep learning models) to a required application<br>Classification</td>
   </tr>
   <tr>
     <td>Data Science and Decision Making<a href="https://github.com/micsupasun/university_of_essex/tree/main/data_science_and_decision_making">[project]</a></td>
