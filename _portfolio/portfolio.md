@@ -351,12 +351,12 @@ a:active {
   </tr>
   <tr>
     <td>Image processing between Wat Pho and Wat Pra Kaew project <a href="https://github.com/micsupasun/image_processing/tree/main/image_processing_wat_pho_and_wat_pra_kaew">[project]</a></td>
-    <td>Image Processing,<br>Image Processing Temple,<br>Classification</td>
+    <td>Image Processing,<br>Temple Image Processing Classification,<br>Classification</td>
     <td>The objective of this project is to develop an image classification model to distinguish between images of two famous Thai landmarks: Wat Pho and Wat Phra Kaew. The model will process a dataset containing labeled images of these landmarks, with the goal of accurately classifying each image as either Wat Pho or Wat Phra Kaew.</td>
   </tr>
 </table>
 
-<h2><a href="test">test</a></h2>
+<h2><a href="https://github.com/micsupasun/company">Company</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
     <th>Project</th>
@@ -364,9 +364,14 @@ a:active {
     <th>Description</th>
   </tr>
   <tr>
-    <td>test1 <a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>coffee-class-cafe<a href="https://github.com/micsupasun/company/tree/main/trinity_roots/coffee-class-cafe">[project]</a></td>
+    <td>Food,<br>Item category shop,<br>Classification</td>
+    <td>The objective of the coffee-class-cafe project is to develop a recommendation system for a cafe, utilizing deep learning techniques to predict user preferences based on historical data. The goal is to improve user satisfaction by accurately predicting menu items or categories that users are likely to enjoy.</td>
+  </tr>
+  <tr>
+    <td>Nectec<a href="https://github.com/micsupasun/company/tree/main/trinity_roots/nectec">[project]</a></td>
+    <td>Food,<br>Item category shop<br>Association Rules(apriori)</td>
+    <td>The objective of this project seems to be the identification of frequent itemsets and the generation of association rules using the Apriori algorithm. This is a common task in market basket analysis, where the goal is to find patterns in purchase data, such as items that are often bought together.</td>
   </tr>
 </table>
 
@@ -444,7 +449,7 @@ a:active {
 
 
 
-company[pass]
+
 hackathon[pass]
 
 classification[pass]
