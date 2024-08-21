@@ -313,7 +313,7 @@ a:active {
   </tr>
 </table>
 
-<h2><a href="test">test</a></h2>
+<h2><a href="https://github.com/micsupasun/kaggle">Kaggle</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
     <th>Project</th>
@@ -321,9 +321,24 @@ a:active {
     <th>Description</th>
   </tr>
   <tr>
-    <td>test1 <a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Drug Classification <a href="https://github.com/micsupasun/kaggle/tree/main/drug_classification">[project]</a></td>
+    <td>Healthcare,<br>Drug Classification,<br>Classification</td>
+    <td>The objective of the Drug Classification project is to develop a machine-learning model that can classify different types of drugs based on various features such as age, gender, blood pressure, cholesterol levels, and other relevant medical information. This classification can assist healthcare professionals in making informed decisions about drug prescriptions.</td>
+  </tr>
+  <tr>
+    <td>Fruit Classification <a href="https://github.com/micsupasun/kaggle/tree/main/fruit_classification">[project]</a></td>
+    <td>Image Processing,<br>Fruit Image Processing Classification,<br>Classification</td>
+    <td>The goal of this project is to build a deep learning model capable of classifying various types of fruits. The model is trained on images of different fruits, and the objective is to accurately predict the fruit category for new, unseen images.</td>
+  </tr>
+  <tr>
+    <td>Multiple Model Gender Classification <a href="https://github.com/micsupasun/kaggle/tree/main/multiple-model-gender-classification">[project]</a></td>
+    <td>Gender,<br>Gender Classification,<br>Classification</td>
+    <td>The objective of this project is to develop and evaluate multiple machine learning models for gender classification based on a given dataset. The goal is to identify the model that provides the highest accuracy in predicting gender while understanding the trade-offs and limitations associated with different algorithms.</td>
+  </tr>
+  <tr>
+    <td>Spaceship Titanic <a href="https://github.com/micsupasun/kaggle/tree/main/spaceship_titanic">[project]</a></td>
+    <td>Transportation,<br>Spaceship Titanic,<br>Classification</td>
+    <td>The goal of the "Spaceship Titanic" project is to predict which passengers were transported to an alternate dimension during the journey on the Titanic spaceship. This is a binary classification problem where the target variable indicates whether a passenger was transported (1) or not (0).</td>
   </tr>
 </table>
 
@@ -432,7 +447,7 @@ a:active {
 
 
 
-kaggle[pass]
+
 image_processing[pass]
 company[pass]
 hackathon[pass]
