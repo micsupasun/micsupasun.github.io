@@ -455,8 +455,6 @@ a:active {
 <table style="width:100%" border="1px solid black;">
   <tr>
     <th>Project</th>
-    <th>Field</th>
-    <th>Description</th>
   </tr>
   <tr>
     <td>Just try and practice code project<a href="https://github.com/micsupasun/practice_code">[project]</a></td>
