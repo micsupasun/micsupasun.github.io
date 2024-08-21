@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
-You can see my <a href="https://leiwangr.github.io/files/CV_21_08_2024.pdf">[CV here].</a>
+You can see my <a href="https://micsupasun.github.io/files/CV_21_08_2024.pdf">[CV here].</a>
 
-Education
+<!-- Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.S. in Jekyll, GitHub University, 2014
@@ -62,4 +62,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
