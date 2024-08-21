@@ -273,43 +273,43 @@ a:active {
   </tr>
   <tr>
     <td>Neural Networks and Deep Learning<a href="https://github.com/micsupasun/university_of_essex/tree/main/neural_networks_and_deep_learning">[project]</a></td>
-    <td>Activation Function,<br>Foward Propagation,<br>Lost Function,<br> backward Propagation</td>
+    <td>Activation Function,<br>Foward Propagation,<br>Lost Function,<br> Backward Propagation</td>
     <td>Understanding the knowledge of neural networks and diverse models<br>Being able to program to achieve models for a tailored context<br>Being able to apply neural network models (including deep learning models) to a required application<br>Classification</td>
   </tr>
   <tr>
     <td>Data Science and Decision Making<a href="https://github.com/micsupasun/university_of_essex/tree/main/data_science_and_decision_making">[project]</a></td>
-    <td>project agrotech<br>NumPy, Bootstrapping, Regression and Classification methods, Clustering algorithm, Recommendation System, CNN, RNN, Advanced Transfer learning<br>Classification, Regression, Clustering, Association Rule, Transfer Learning</td>
+    <td>project agrotech,<br>NumPy, Bootstrapping, Regression and Classification methods, Clustering algorithm, Recommendation System, CNN, RNN, Advanced Transfer learning<br>Classification, Regression, Clustering, Association Rule, Transfer Learning</td>
     <td>The aim of this project is to develop a system that can help growers plan ahead for their crops by giving them information about the expected size of the crops in a future date. Using this system, they should be able to talk to supermarkets about when and how much produce they can sell them, resulting in a measurable gain for the growers’ business. To do this, they have given you historical data from previous crops, as well as weather data.</td>
   </tr>
   <tr>
     <td>Big Data for Computational Finance<a href="https://github.com/micsupasun/university_of_essex/tree/main/big_data_for_computational_finance">[project]</a></td>
-    <td>Finance,<br>Fraud Detection,<br>classification</td>
+    <td>Finance,<br>Fraud Detection,<br>Classification</td>
     <td>The research was overwhelmingly successful by measuring whether the models we made could be used in real life. which measured by human guessed do not fraud transaction at all will have an accuracy of about 99.8272514369 percent. In the first step, we used machine learning to predict 9 models, each model using 3 scalars: min_max_scalar,robust_scalar,standard_scalar. This resulted in a total of 27 models, with 14 models outperforming humans. in the second step, We optimize the model to increase accuracy by improving the parameters even further. when we train a model again. We have selected the best parameters and scalar of each model for a total of 9 models. which outperforms the human prediction of 4 models. finally, we use Deep Learning model with Convolution neural network 1 model, which is more efficient than human prediction. With all of the above, we can clearly see that there are 19 models that are accurate enough to be used in real life. The most accurate model was Random Forest, which used the best parameters and scalar with an accuracy of 0.999911 percent and a standard deviation of 0.000050 percent. from the comparison of a test set with a total of 112032 transactions, only 5 transactions have errors. while if humans predict there will be a transaction error is approximately 194 transaction[112032-(112032*99.8272514369/100)]. That makes a very accurate model that can be used in real life because it is much more accurate than humans.</td>
   </tr>
   <tr>
     <td>Intelligent Systems and Robotics<a href="https://github.com/micsupasun/university_of_essex/tree/main/intelligent_systems_and_robotics">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Intelligent Systems and Robotics,<br>PID Controller, Fuzzy Logic</td>
+    <td>To translate the theoretical knowledge gained throughout the course into practice by designing and implementing systems for real mobile robots</td>
   </tr>
   <tr>
     <td>Text Analytics<a href="https://github.com/micsupasun/university_of_essex/tree/main/text_analytics">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Text Analytics,<br>Extreme Multilabel Text Classification 12 models,<br>Classification</td>
+    <td>The objective of this assignment is to explore the landscape of text classification. First, basic methods for text classification shall be identified and discussed. Subsequently, different research areas of text classification shall be identified. Finally, selected papers in the identified fields shall be discussed. After Assignment 1 focused on the theoretical aspects of text classification, the objective of this assignment is to get practical experience in designing, implementing, running and scientifically evaluating your own XML classifier. The dataset will be a collection of two very large-scale resources of scientific papers in economics and medicine. Each `document’ in this dataset represents a record from a large document corpus. You can also use further datasets of your choice.</td>
   </tr>
   <tr>
     <td>Group Project<a href="https://github.com/micsupasun/university_of_essex/tree/main/group_project">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Group Project,<br>Group project for blind people, Image Processing, Federated Learning, Object Detection, Object Distance<br>Classification and Regression</td>
+    <td>This application will help the visually impaired to carry out their daily activities without relying so much on others, enabling a more independent life for them. By implementing a federated learning approach, the distributed system of the edge computing devices will reduce the dependency on heavy computing systems required. Our research also aimed to reduce the latency as it is close to the speed of the network. This can be further enhanced by deploying the model to a larger scale which will help to collect more training data and improve the accuracy of the model which is on the cloud.</td>
   </tr>
   <tr>
     <td>Professional Practice<a href="https://github.com/micsupasun/university_of_essex/tree/main/professional_practice_and_research_methodology">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>science fiction to imagine future of AI,<br>writing profile for application company,<br>research proposal</td>
+    <td>subject to finding a suitable professor to be my mentor and writing a research proposal before the dissertation.<br>writing job application<br>research proposal<br>science fiction</td>
   </tr>
   <tr>
     <td>Dissertation<a href="https://github.com/micsupasun/university_of_essex/tree/main/MSc_project_and_dissertation">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Speech Recognition,<br>Speech Emotion Recognition,<br>Classification</td>
+    <td>my dissertation name is Comparative speech emotion recognition in multiple models and multiple datasets to Understanding the feelings and emotions of the person we are talking to will allow us to have a better relationship with the person we are talk. Therefore, this research is to predict speech emotion recognition to understand human feelings better. There are two types of predictions: just the prediction of emotion and the prediction of emotion and gender. This research was performed by merging four datasets to solve the problem of imbalance and overfitting datasets. The four datasets were then combined and transformed from noise to numbers by Zero Crossing Rate, Root Mean Square, and Mel Frequency Cepstral Coefficient and predicted by 17 models to find the best model. The best model of machine learning from the experiment, Ensemble Learning with soft, had an accuracy of 89.82 percent for predicting only emotion and 88.64 percent for predicting emotion and gender. At the same time, the most accurate deep-learning model is the Convolutional neural network. The accuracy of predicting only emotion was 97.44 percent, and predicting emotion and gender was accurate at 97.35 percent. From this study, we can see that female voices were more accurate than male voices, fear voices were the least accurate, and surprise voices had the greatest predictive accuracy in model predictions.</td>
   </tr>
 </table>
 
