@@ -268,13 +268,13 @@ a:active {
   </tr>
   <tr>
     <td>Machine Learning<a href="https://github.com/micsupasun/university_of_essex/tree/main/machine_learning">[project]</a></td>
-    <td>Classification,<br>Regression</td>
-    <td>True and False result<br>Target result</td>
+    <td>Classification(True and False result),<br>Regression(Target result)</td>
+    <td>This document specifies the coursework assignment to be submitted by students taking CE802. Aims of this assignment are:<br>to learn to identify machine learning techniques appropriate for a particular practical problem;<br>to undertake a comparative evaluation of several machine learning procedures when applied to the specific problem.</td>
   </tr>
   <tr>
     <td>Neural Networks and Deep Learning<a href="https://github.com/micsupasun/university_of_essex/tree/main/neural_networks_and_deep_learning">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Activation Function,<br>Foward Propagation,<br>Lost Function,<br> backward Propagation</td>
+    <td>Understanding the knowledge of neural networks and diverse models<br>Being able to program to achieve models for a tailored context<br>Being able to apply neural network models (including deep learning models) to a required application</td>
   </tr>
   <tr>
     <td>Data Science and Decision Making<a href="https://github.com/micsupasun/university_of_essex/tree/main/data_science_and_decision_making">[project]</a></td>
