@@ -445,13 +445,13 @@ a:active {
     <th>Description</th>
   </tr>
   <tr>
-    <td>test1 <a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Customer Segmentation <a href="https://github.com/micsupasun/clustering/tree/main/customer_segmentation">[project]</a></td>
+    <td>Clustering,<br>Customer Segmentation,<br>K-means clustering</td>
+    <td>The objective of this project is to perform customer segmentation using machine learning techniques. Customer segmentation aims to divide a customer base into distinct groups with similar characteristics to allow for more targeted marketing strategies. The project uses a dataset of customer information to identify these segments.</td>
   </tr>
 </table>
 
-<h2><a href="test">test</a></h2>
+<h2><a href="https://github.com/micsupasun/practice_code">Practice Code</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
     <th>Project</th>
@@ -459,19 +459,9 @@ a:active {
     <th>Description</th>
   </tr>
   <tr>
-    <td>test1 <a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Just try and practice code project<a href="https://github.com/micsupasun/practice_code">[project]</a></td>
   </tr>
 </table>
-
-
-
-
-
-clustering[pass แก้ไขreadmeหน่อย]
-
-practice_code[pass]
 
 
 
