@@ -394,7 +394,7 @@ a:active {
   </tr>
 </table>
 
-<h2><a href="test">Classification</a></h2>
+<h2><a href="https://github.com/micsupasun/classification/tree/main">Classification</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
     <th>Project</th>
