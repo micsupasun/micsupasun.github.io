@@ -22,6 +22,7 @@ a:active {
   text-decoration: underline;
 }
 </style>
+I have worked on around 70 AI projects, including:
 
 <h2><a href="https://github.com/micsupasun/computer_vision">Computer Vision</a></h2>
 <table style="width:100%" border="1px solid black;">
