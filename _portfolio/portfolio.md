@@ -342,7 +342,7 @@ a:active {
   </tr>
 </table>
 
-<h2><a href="test">test</a></h2>
+<h2><a href="https://github.com/micsupasun/image_processing">Image Processing</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
     <th>Project</th>
@@ -350,9 +350,9 @@ a:active {
     <th>Description</th>
   </tr>
   <tr>
-    <td>test1 <a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
+    <td>Image processing between Wat Pho and Wat Pra Kaew project <a href="https://github.com/micsupasun/image_processing/tree/main/image_processing_wat_pho_and_wat_pra_kaew">[project]</a></td>
+    <td>Image Processing,<br>Image Processing Temple,<br>Classification</td>
+    <td>The objective of this project is to develop an image classification model to distinguish between images of two famous Thai landmarks: Wat Pho and Wat Phra Kaew. The model will process a dataset containing labeled images of these landmarks, with the goal of accurately classifying each image as either Wat Pho or Wat Phra Kaew.</td>
   </tr>
 </table>
 
@@ -444,11 +444,6 @@ a:active {
 
 
 
-
-
-
-
-image_processing[pass]
 company[pass]
 hackathon[pass]
 
