@@ -375,7 +375,26 @@ a:active {
   </tr>
 </table>
 
-<h2><a href="test">test</a></h2>
+<h2><a href="https://github.com/micsupasun/hackathon">Hackathon</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Customer Revenue<a href="https://github.com/micsupasun/hackathon/tree/main/customer_revenue">[project]</a></td>
+    <td>Bank,<br>Customer Revenue,<br>Regression</td>
+    <td>This project wants to predict customer revenue using the XGBroost model for the Techjam Hackathon(KBank Company).</td>
+  </tr>
+  <tr>
+    <td>Product Promotion<a href="https://github.com/micsupasun/hackathon/tree/main/product_promotion">[project]</a></td>
+    <td>Food,<br>Product Promotion,<br>APRIORI model</td>
+    <td>This project wants to predict product promotion using the APRIORI model for the Wongnai Hackathon.</td>
+  </tr>
+</table>
+
+<h2><a href="test">Classification</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
     <th>Project</th>
@@ -431,28 +450,9 @@ a:active {
   </tr>
 </table>
 
-<h2><a href="test">test</a></h2>
-<table style="width:100%" border="1px solid black;">
-  <tr>
-    <th>Project</th>
-    <th>Field</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>test1 <a href="test">[project]</a></td>
-    <td>test2,<br>test3</td>
-    <td>test4</td>
-  </tr>
-</table>
 
 
 
-
-
-
-hackathon[pass]
-
-classification[pass]
 regression[pass]
 clustering[pass แก้ไขreadmeหน่อย]
 
