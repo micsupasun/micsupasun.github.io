@@ -314,6 +314,20 @@ I have worked on around 70 AI projects, including:
   </tr>
 </table>
 
+<h2><a href="https://github.com/micsupasun/vaccine-outcome-prediction">Work Project</a></h2>
+<table style="width:100%" border="1px solid black;">
+  <tr>
+    <th>Project</th>
+    <th>Field</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Vaccine Outcome Prediction <a href="https://github.com/micsupasun/vaccine-outcome-prediction">[project]</a></td>
+    <td>Healthcare,<br>Natural Language Processing,<br>Deep Learning,<br>Classification</td>
+    <td>A Streamlit web application that uses a trained Character CNN model to predict vaccine-related outcomes from Thai symptom text and patient age. The project includes a PyTorch model checkpoint, a reusable prediction module, and an interactive web interface for entering symptoms, age, and optional clinical context.</td>
+  </tr>
+</table>
+
 <h2><a href="https://github.com/micsupasun/kaggle">Kaggle</a></h2>
 <table style="width:100%" border="1px solid black;">
   <tr>
