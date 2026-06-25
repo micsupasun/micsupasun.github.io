@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vaccine Outcome Prediction</title>
+  <link rel="icon" href="data:,">
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.23.2/dist/ort.min.js"></script>
+  <style>
+    :root {
+      --ink: #0b1f2e;
+      --muted: #5d6d79;
+      --line: #d7e1e7;
+      --panel: #ffffff;
+      --surface: #f6f9fb;
+      --accent: #0f5c6b;
+      --accent-2: #2f8f83;
+      --danger: #b42318;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--surface);
+      font-family: Arial, "Noto Sans Thai", Tahoma, sans-serif;
+      line-height: 1.55;
+    }
+
+    main {
+      width: min(1160px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 38px 0 48px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 34px;
+      align-items: center;
+      margin-bottom: 34px;
+    }
+
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .hero-image {
+      min-height: 230px;
+      border-radius: 8px;
+      background:
+        linear-gradient(135deg, rgba(10, 90, 103, 0.86), rgba(38, 137, 125, 0.72)),
+        url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80");
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 20px 44px rgba(11, 31, 46, 0.16);
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: 1fr 0.9fr;
+      gap: 34px;
+      align-items: start;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 1.6rem;
+      letter-spacing: 0;
+    }
+
+    label {
+      display: block;
+      margin: 0 0 7px;
+      font-weight: 700;
+      color: #223746;
+    }
+
+    textarea,
+    input,
+    select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      padding: 12px 13px;
+      outline: none;
+    }
+
+    textarea {
+      min-height: 142px;
+      resize: vertical;
+    }
+
+    textarea:focus,
+    input:focus,
+    select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(15, 92, 107, 0.12);
+    }
+
+    .field {
+      margin-bottom: 18px;
+    }
+
+    .age-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    button {
+      min-height: 46px;
+      border: 0;
+      border-radius: 8px;
+      padding: 0 22px;
+      background: var(--accent);
+      color: #fff;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0a4a56;
+    }
+
+    button:disabled {
+      cursor: wait;
+      opacity: 0.72;
+    }
+
+    .result-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px 24px;
+      background: var(--panel);
+      box-shadow: 0 12px 28px rgba(11, 31, 46, 0.07);
+      margin-bottom: 18px;
+    }
+
+    .result-label {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .result-title {
+      margin: 0;
+      color: var(--accent);
+      font-size: 1.55rem;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    .confidence {
+      margin-bottom: 18px;
+    }
+
+    .confidence span {
+      display: block;
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    .confidence strong {
+      color: var(--accent);
+      font-size: 2.1rem;
+      line-height: 1;
+    }
+
+    .bars {
+      display: grid;
+      gap: 12px;
+      margin: 18px 0 18px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(130px, 0.55fr) 1fr 62px;
+      gap: 10px;
+      align-items: center;
+      font-size: 0.94rem;
+    }
+
+    .bar-track {
+      height: 12px;
+      border-radius: 999px;
+      background: #dde7ec;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      font-size: 0.95rem;
+    }
+
+    th,
+    td {
+      border-bottom: 1px solid var(--line);
+      padding: 11px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: #324653;
+      background: #edf4f7;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .status {
+      min-height: 24px;
+      color: var(--muted);
+      margin-top: 12px;
+    }
+
+    .status.error {
+      color: var(--danger);
+      font-weight: 700;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-top: 18px;
+    }
+
+    @media (max-width: 860px) {
+      main {
+        width: min(100% - 22px, 720px);
+        padding-top: 22px;
+      }
+
+      .hero,
+      .workspace {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-image {
+        min-height: 180px;
+      }
+
+      .age-grid,
+      .bar-row {
+        grid-template-columns: 1fr;
+      }
+
+      .bar-row {
+        gap: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Vaccine Outcome Prediction</h1>
+        <p>ระบบช่วยคาดการณ์วัคซีนที่เกี่ยวข้องจากอาการและอายุของผู้ป่วย โดยใช้โมเดล Character CNN ที่ฝึกไว้</p>
+      </div>
+      <div class="hero-image" aria-hidden="true"></div>
+    </section>
+
+    <section class="workspace">
+      <form id="predict-form">
+        <h2>ข้อมูลนำเข้า</h2>
+
+        <div class="field">
+          <label for="symptom">อาการ</label>
+          <textarea id="symptom">ไอเป็นชุด หายใจมีเสียงวู๊ป ต้องการทราบวัคซีนที่ถึงกำหนด</textarea>
+        </div>
+
+        <div class="age-grid">
+          <div class="field">
+            <label for="age">อายุ</label>
+            <input id="age" type="number" min="0" max="120" step="0.5" value="4">
+          </div>
+
+          <div class="field">
+            <label for="unit">หน่วยอายุ</label>
+            <select id="unit">
+              <option value="ปี">ปี</option>
+              <option value="เดือน">เดือน</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="extra">ข้อมูลเพิ่มเติม</label>
+          <input id="extra" type="text" placeholder="เช่น ไข้สูง ประวัติวัคซีน หรือรายละเอียดอื่น">
+        </div>
+
+        <button id="predict-button" type="submit">Predict</button>
+        <div id="status" class="status">กำลังโหลดโมเดล...</div>
+      </form>
+
+      <section>
+        <h2>ผลการทำนาย</h2>
+
+        <div class="result-card">
+          <p class="result-label">คำแนะนำอันดับแรก</p>
+          <p id="best-label" class="result-title">พร้อมใช้งาน</p>
+        </div>
+
+        <div class="confidence">
+          <span>ความมั่นใจ</span>
+          <strong id="best-score">-</strong>
+        </div>
+
+        <div id="bars" class="bars"></div>
+        <div id="table"></div>
+
+        <p class="note">ผลลัพธ์เป็นการคาดการณ์จากโมเดล ควรใช้ร่วมกับการประเมินทางการแพทย์</p>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const APP = {
+      metadata: null,
+      session: null,
+    };
+
+    const els = {
+      form: document.getElementById("predict-form"),
+      symptom: document.getElementById("symptom"),
+      age: document.getElementById("age"),
+      unit: document.getElementById("unit"),
+      extra: document.getElementById("extra"),
+      button: document.getElementById("predict-button"),
+      status: document.getElementById("status"),
+      bestLabel: document.getElementById("best-label"),
+      bestScore: document.getElementById("best-score"),
+      bars: document.getElementById("bars"),
+      table: document.getElementById("table"),
+    };
+
+    function setStatus(message, isError = false) {
+      els.status.textContent = message;
+      els.status.classList.toggle("error", isError);
+    }
+
+    function textToIds(text) {
+      const char2id = APP.metadata.char2id;
+      const maxLen = APP.metadata.maxLen;
+      const unkId = char2id["<UNK>"] ?? char2id["<unk>"] ?? 1;
+      const chars = Array.from((text || "").toLowerCase()).slice(0, maxLen);
+      const ids = chars.map((ch) => char2id[ch] ?? unkId);
+      while (ids.length < maxLen) ids.push(0);
+      return ids;
+    }
+
+    function ageToMonths(ageInput) {
+      if (!ageInput) return null;
+      const raw = String(ageInput).trim().toLowerCase();
+      const match = raw.match(/\d+(?:\.\d+)?/);
+      if (!match) return null;
+      const value = Number(match[0]);
+      if (raw.includes("เดือน") || raw.includes("month") || raw.includes("mo")) return value;
+      if (raw.includes("ปี") || raw.includes("year") || raw.includes("yr")) return value * 12;
+      return value * 12;
+    }
+
+    function ageBucket(ageInput) {
+      const months = ageToMonths(ageInput);
+      if (months === null) return "unknown";
+      if (months === 0) return "แรกเกิด";
+      if (months === 1) return "1เดือน";
+      if (months === 2) return "2เดือน";
+      if (months === 4) return "4เดือน";
+      if (months === 6) return "6เดือน";
+      if (months >= 9 && months <= 12) return "9-12เดือน";
+      if (months >= 13 && months <= 17) return "13-17เดือน";
+      if (months === 18) return "18เดือน";
+      if (months >= 24 && months <= 30) return "2-2.5ปี";
+      if (months >= 31 && months <= 47) return "31-47เดือน";
+      if (months >= 48 && months <= 72) return "4-6ปี";
+      if (months >= 73 && months <= 131) return "73-131เดือน";
+      if (months >= 132 && months <= 155) return "11-12ปี";
+      return "นอกช่วงตาราง";
+    }
+
+    function ageFeatures(ageInput) {
+      const months = ageToMonths(ageInput);
+      const bucket = ageBucket(ageInput);
+      const categories = APP.metadata.ageCategories;
+      const oneHot = categories.map((category) => category === bucket ? 1 : 0);
+      const ageMonths = months === null ? 0 : months;
+      const features = [ageMonths / 216, (ageMonths / 12) / 18, ...oneHot];
+      while (features.length < APP.metadata.ageDim) features.push(0);
+      return features.slice(0, APP.metadata.ageDim);
+    }
+
+    function softmax(values) {
+      const max = Math.max(...values);
+      const exp = values.map((value) => Math.exp(value - max));
+      const sum = exp.reduce((acc, value) => acc + value, 0);
+      return exp.map((value) => value / sum);
+    }
+
+    function topK(probabilities, k) {
+      return probabilities
+        .map((probability, index) => ({
+          label: APP.metadata.classes[index] || String(index),
+          probability,
+        }))
+        .sort((a, b) => b.probability - a.probability)
+        .slice(0, k);
+    }
+
+    function render(results) {
+      const best = results[0];
+      els.bestLabel.textContent = best.label;
+      els.bestScore.textContent = `${(best.probability * 100).toFixed(2)}%`;
+
+      els.bars.innerHTML = results.map((item) => {
+        const percent = item.probability * 100;
+        return `
+          <div class="bar-row">
+            <div>${item.label}</div>
+            <div class="bar-track"><div class="bar-fill" style="width: ${percent}%;"></div></div>
+            <strong>${percent.toFixed(2)}%</strong>
+          </div>
+        `;
+      }).join("");
+
+      els.table.innerHTML = `
+        <table>
+          <thead>
+            <tr><th>อันดับ</th><th>วัคซีน</th><th>ความมั่นใจ</th></tr>
+          </thead>
+          <tbody>
+            ${results.map((item, index) => `
+              <tr>
+                <td>${index + 1}</td>
+                <td>${item.label}</td>
+                <td>${(item.probability * 100).toFixed(2)}%</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      `;
+    }
+
+    async function loadModel() {
+      ort.env.wasm.numThreads = 1;
+      ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.23.2/dist/";
+
+      const metadataResponse = await fetch("metadata.json");
+      APP.metadata = await metadataResponse.json();
+      APP.session = await ort.InferenceSession.create("model.onnx", {
+        executionProviders: ["wasm"],
+      });
+      setStatus("โมเดลพร้อมใช้งาน");
+    }
+
+    async function predict() {
+      const text = [els.symptom.value.trim(), els.extra.value.trim()].filter(Boolean).join(" ");
+      if (!text) {
+        setStatus("กรุณากรอกอาการหรือข้อมูลเพิ่มเติม", true);
+        return;
+      }
+
+      const ids = textToIds(text);
+      const ageInput = `${els.age.value}${els.unit.value}`;
+      const ages = ageFeatures(ageInput);
+
+      const feeds = {
+        text_ids: new ort.Tensor("int64", BigInt64Array.from(ids.map(BigInt)), [1, APP.metadata.maxLen]),
+        age_features: new ort.Tensor("float32", Float32Array.from(ages), [1, APP.metadata.ageDim]),
+      };
+
+      const outputs = await APP.session.run(feeds);
+      const logits = Array.from(outputs.logits.data);
+      render(topK(softmax(logits), 3));
+      setStatus("ทำนายเสร็จแล้ว");
+    }
+
+    els.form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      els.button.disabled = true;
+      setStatus("กำลังประมวลผล...");
+      try {
+        if (!APP.session) await loadModel();
+        await predict();
+      } catch (error) {
+        console.error(error);
+        setStatus("ไม่สามารถโหลดหรือรันโมเดลได้ กรุณาลอง refresh หน้าเว็บ", true);
+      } finally {
+        els.button.disabled = false;
+      }
+    });
+
+    loadModel().catch((error) => {
+      console.error(error);
+      setStatus("ไม่สามารถโหลดโมเดลได้ กรุณาลอง refresh หน้าเว็บ", true);
+    });
+  </script>
+</body>
+</html>
