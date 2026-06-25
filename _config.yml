@@ -147,7 +147,6 @@ include:
   - .htaccess
   - _pages
   - files
-  - vaccine-outcome-prediction
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

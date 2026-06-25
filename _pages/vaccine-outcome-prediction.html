@@ -1,3 +1,7 @@
+---
+permalink: /vaccine-outcome-prediction/
+layout: null
+---
 <!doctype html>
 <html lang="th">
 <head>
@@ -477,9 +481,9 @@
       ort.env.wasm.numThreads = 1;
       ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.23.2/dist/";
 
-      const metadataResponse = await fetch("metadata.json");
+      const metadataResponse = await fetch("/files/vaccine-outcome-prediction/metadata.json");
       APP.metadata = await metadataResponse.json();
-      APP.session = await ort.InferenceSession.create("model.onnx", {
+      APP.session = await ort.InferenceSession.create("/files/vaccine-outcome-prediction/model.onnx", {
         executionProviders: ["wasm"],
       });
       setStatus("โมเดลพร้อมใช้งาน");
