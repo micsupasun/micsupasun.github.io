@@ -483,7 +483,7 @@ layout: null
 
       const metadataResponse = await fetch("/files/vaccine-outcome-prediction/metadata.json");
       APP.metadata = await metadataResponse.json();
-      APP.session = await ort.InferenceSession.create("/files/vaccine-outcome-prediction/model.onnx", {
+      APP.session = await ort.InferenceSession.create("/files/vaccine-outcome-prediction/model.bin", {
         executionProviders: ["wasm"],
       });
       setStatus("โมเดลพร้อมใช้งาน");
