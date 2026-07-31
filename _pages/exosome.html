@@ -1,0 +1,916 @@
+---
+permalink: /exosome/
+layout: null
+---
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Plant-derived exosome anti-inflammatory outcome prediction research prototype."
+  >
+  <title>Exosome Anti-Inflammatory Prediction</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root {
+      --ink: #10231d;
+      --muted: #60716b;
+      --line: #d7e2dc;
+      --panel: #ffffff;
+      --surface: #f5f8f6;
+      --soft: #eaf3ee;
+      --accent: #166344;
+      --accent-2: #4f9a70;
+      --accent-dark: #0f4e35;
+      --warning: #8a4b08;
+      --warning-bg: #fff8e8;
+      --danger: #b42318;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--surface);
+      font-family: Arial, "Noto Sans Thai", Tahoma, sans-serif;
+      line-height: 1.55;
+    }
+
+    main {
+      width: min(1160px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 38px 0 48px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 34px;
+      align-items: center;
+      margin-bottom: 34px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      max-width: 710px;
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-copy {
+      max-width: 680px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.04rem;
+    }
+
+    .model-facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .model-facts span {
+      border: 1px solid #cfe0d6;
+      border-radius: 999px;
+      padding: 5px 10px;
+      color: var(--accent-dark);
+      background: var(--soft);
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
+    .hero-image {
+      min-height: 250px;
+      border-radius: 8px;
+      background:
+        linear-gradient(135deg, rgba(13, 80, 52, 0.86), rgba(65, 139, 96, 0.64)),
+        url("https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1200&q=80");
+      background-position: center;
+      background-size: cover;
+      box-shadow: 0 20px 44px rgba(16, 35, 29, 0.17);
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: 1fr 0.9fr;
+      gap: 34px;
+      align-items: start;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 1.6rem;
+      letter-spacing: -0.01em;
+    }
+
+    label {
+      display: block;
+      margin: 0 0 7px;
+      color: #273d34;
+      font-weight: 700;
+    }
+
+    textarea,
+    input,
+    select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px 13px;
+      color: var(--ink);
+      background: #fff;
+      font: inherit;
+      outline: none;
+    }
+
+    textarea {
+      min-height: 126px;
+      resize: vertical;
+    }
+
+    textarea:focus,
+    input:focus,
+    select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(22, 99, 68, 0.12);
+    }
+
+    .field {
+      margin-bottom: 17px;
+    }
+
+    .field-hint {
+      margin: 5px 0 0;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .field-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    button {
+      min-height: 46px;
+      border: 0;
+      border-radius: 8px;
+      padding: 0 22px;
+      color: #fff;
+      background: var(--accent);
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: var(--accent-dark);
+    }
+
+    button:disabled {
+      cursor: wait;
+      opacity: 0.72;
+    }
+
+    .status {
+      min-height: 24px;
+      margin-top: 12px;
+      color: var(--muted);
+    }
+
+    .status.error {
+      color: var(--danger);
+      font-weight: 700;
+    }
+
+    .result-card,
+    .evidence-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px 24px;
+      background: var(--panel);
+      box-shadow: 0 12px 28px rgba(16, 35, 29, 0.07);
+    }
+
+    .result-card {
+      margin-bottom: 16px;
+    }
+
+    .evidence-card {
+      margin: 18px 0;
+      box-shadow: none;
+    }
+
+    .result-label,
+    .evidence-label {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .result-title {
+      margin: 0;
+      color: var(--accent);
+      font-size: 1.52rem;
+      font-weight: 800;
+      line-height: 1.28;
+    }
+
+    .evidence-result {
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .metric {
+      border-left: 3px solid var(--accent-2);
+      padding: 3px 0 3px 12px;
+    }
+
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.86rem;
+      font-weight: 700;
+    }
+
+    .metric strong {
+      color: var(--accent-dark);
+      font-size: 1.65rem;
+      line-height: 1.2;
+    }
+
+    .source-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 16px;
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      font-size: 0.9rem;
+    }
+
+    .source-grid span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .bars {
+      display: grid;
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(145px, 0.7fr) 1fr 62px;
+      gap: 10px;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+
+    .bar-track {
+      height: 12px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #dce8e1;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    }
+
+    .warning {
+      margin-top: 18px;
+      border: 1px solid #f0d8aa;
+      border-radius: 8px;
+      padding: 13px 14px;
+      color: var(--warning);
+      background: var(--warning-bg);
+      font-size: 0.88rem;
+    }
+
+    .project-links {
+      margin: 12px 0 0;
+      font-size: 0.88rem;
+    }
+
+    .project-links a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    @media (max-width: 860px) {
+      main {
+        width: min(100% - 22px, 720px);
+        padding-top: 22px;
+      }
+
+      .hero,
+      .workspace {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-image {
+        min-height: 185px;
+      }
+
+      .field-grid,
+      .metric-grid,
+      .source-grid,
+      .bar-row {
+        grid-template-columns: 1fr;
+      }
+
+      .bar-row {
+        gap: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Research prototype</p>
+        <h1>Plant-Derived Exosome Anti-Inflammatory Prediction</h1>
+        <p class="hero-copy">
+          ระบบต้นแบบสำหรับคาดการณ์กลุ่มผลลัพธ์ด้านการต้านการอักเสบ
+          จากชนิดพืช วิธีแยกอนุภาค ชีวโมเลกุลเป้าหมาย และบริบทการทดลอง
+          พร้อมค้นคืนผลการทดลองที่ใกล้เคียงที่สุด
+        </p>
+        <div class="model-facts" aria-label="Model summary">
+          <span>KNN Cosine</span>
+          <span id="source-count">12 source records</span>
+          <span id="outcome-count">39 outcomes</span>
+          <span id="accuracy-chip">51.28% grouped-CV accuracy</span>
+        </div>
+      </div>
+      <div class="hero-image" aria-hidden="true"></div>
+    </section>
+
+    <section class="workspace">
+      <form id="predict-form">
+        <h2>ข้อมูลนำเข้า</h2>
+
+        <div class="field">
+          <label for="source-example">ตัวอย่างจากชุดข้อมูล</label>
+          <select id="source-example"></select>
+          <p class="field-hint">เลือกตัวอย่างแล้วปรับรายละเอียดด้านล่างได้</p>
+        </div>
+
+        <div class="field-grid">
+          <div class="field">
+            <label for="pname">ชื่อพืช</label>
+            <input id="pname" list="plant-options" required>
+            <datalist id="plant-options"></datalist>
+          </div>
+
+          <div class="field">
+            <label for="partuse">ส่วนที่ใช้</label>
+            <input id="partuse" list="part-options" required>
+            <datalist id="part-options"></datalist>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="isolation">วิธีแยกอนุภาค</label>
+          <input id="isolation" list="isolation-options" required>
+          <datalist id="isolation-options"></datalist>
+        </div>
+
+        <div class="field-grid">
+          <div class="field">
+            <label for="biomarker">Biomarker</label>
+            <input id="biomarker" list="biomarker-options" required>
+            <datalist id="biomarker-options"></datalist>
+          </div>
+
+          <div class="field">
+            <label for="cell-model">Cell / animal model</label>
+            <input id="cell-model" list="cell-model-options" required>
+            <datalist id="cell-model-options"></datalist>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="condition">เงื่อนไขการทดลอง</label>
+          <textarea id="condition" required></textarea>
+        </div>
+
+        <button id="predict-button" type="submit">Predict</button>
+        <div id="status" class="status" aria-live="polite">กำลังเตรียมโมเดล...</div>
+      </form>
+
+      <section aria-labelledby="result-heading">
+        <h2 id="result-heading">ผลการทำนาย</h2>
+
+        <div class="result-card">
+          <p class="result-label">กลุ่มผลลัพธ์ที่คาดการณ์</p>
+          <p id="best-label" class="result-title">พร้อมใช้งาน</p>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric">
+            <span>KNN vote confidence</span>
+            <strong id="best-score">-</strong>
+          </div>
+          <div class="metric">
+            <span>Retrieval similarity</span>
+            <strong id="retrieval-score">-</strong>
+          </div>
+        </div>
+
+        <div id="bars" class="bars" aria-label="Top predicted classes"></div>
+
+        <div class="evidence-card">
+          <p class="evidence-label">ผลการทดลองใกล้เคียงที่ค้นคืนได้</p>
+          <p id="evidence-result" class="evidence-result">
+            กรอกข้อมูลแล้วกด Predict เพื่อดูผล
+          </p>
+          <div class="source-grid">
+            <div>
+              <span>Source</span>
+              <strong id="source-id">-</strong>
+            </div>
+            <div>
+              <span>Plant</span>
+              <strong id="source-plant">-</strong>
+            </div>
+            <div>
+              <span>Biomarker</span>
+              <strong id="source-biomarker">-</strong>
+            </div>
+            <div>
+              <span>Model</span>
+              <strong id="source-model">-</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="warning">
+          ผลลัพธ์เชิงตัวเลขเป็นค่าที่ค้นคืนจากการทดลองเดิมที่ใกล้เคียง
+          ไม่ใช่ค่าชีวภาพที่โมเดลประมาณขึ้นใหม่ ชุดข้อมูลมีขนาดเล็กและไม่สมดุล
+          จึงควรใช้เพื่อการสำรวจงานวิจัยเท่านั้น ไม่ใช้ตัดสินใจทางคลินิก
+        </div>
+
+        <p class="project-links">
+          <a href="https://github.com/micsupasun/exosome">View project on GitHub</a>
+          ·
+          <a href="https://micsupasun.github.io/portfolio/">Back to portfolio</a>
+        </p>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const DATA_URL = "/files/exosome/data.json";
+
+    const APP = {
+      data: null,
+      rows: [],
+      wordSpace: null,
+      charSpace: null,
+      retrievalSpace: null,
+    };
+
+    const CLASS_LABELS = {
+      "decrease|numeric": "ลดลง · มีค่าตัวเลข",
+      "decrease|qualitative": "ลดลง · เชิงคุณภาพ",
+      "increase|numeric": "เพิ่มขึ้น · มีค่าตัวเลข",
+      "reported|numeric": "รายงานค่า · มีค่าตัวเลข",
+      "reported|qualitative": "มีรายงานผล · เชิงคุณภาพ",
+    };
+
+    const els = {
+      form: document.getElementById("predict-form"),
+      sourceExample: document.getElementById("source-example"),
+      pname: document.getElementById("pname"),
+      partuse: document.getElementById("partuse"),
+      isolation: document.getElementById("isolation"),
+      biomarker: document.getElementById("biomarker"),
+      cellModel: document.getElementById("cell-model"),
+      condition: document.getElementById("condition"),
+      button: document.getElementById("predict-button"),
+      status: document.getElementById("status"),
+      bestLabel: document.getElementById("best-label"),
+      bestScore: document.getElementById("best-score"),
+      retrievalScore: document.getElementById("retrieval-score"),
+      bars: document.getElementById("bars"),
+      evidenceResult: document.getElementById("evidence-result"),
+      sourceId: document.getElementById("source-id"),
+      sourcePlant: document.getElementById("source-plant"),
+      sourceBiomarker: document.getElementById("source-biomarker"),
+      sourceModel: document.getElementById("source-model"),
+      sourceCount: document.getElementById("source-count"),
+      outcomeCount: document.getElementById("outcome-count"),
+      accuracyChip: document.getElementById("accuracy-chip"),
+    };
+
+    function setStatus(message, isError = false) {
+      els.status.textContent = message;
+      els.status.classList.toggle("error", isError);
+    }
+
+    function addCount(map, key) {
+      map.set(key, (map.get(key) || 0) + 1);
+    }
+
+    function normalizeSpace(value) {
+      return String(value || "")
+        .normalize("NFKC")
+        .replace(/\u00a0/g, " ")
+        .replace(/μ/g, "µ")
+        .replace(/[–—‐]/g, "-")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function wordNgrams(text) {
+      const normalized = normalizeSpace(text)
+        .normalize("NFKD")
+        .replace(/\p{M}/gu, "")
+        .toLowerCase();
+      const tokens = normalized.match(/[\p{L}\p{N}_]{2,}/gu) || [];
+      const counts = new Map();
+
+      for (let index = 0; index < tokens.length; index += 1) {
+        addCount(counts, tokens[index]);
+        if (index + 1 < tokens.length) {
+          addCount(counts, `${tokens[index]} ${tokens[index + 1]}`);
+        }
+      }
+
+      return counts;
+    }
+
+    function charWbNgrams(text) {
+      const words = normalizeSpace(text).toLowerCase().split(" ").filter(Boolean);
+      const counts = new Map();
+
+      for (const word of words) {
+        const padded = ` ${word} `;
+        for (let size = 3; size <= 5; size += 1) {
+          for (let index = 0; index <= padded.length - size; index += 1) {
+            addCount(counts, padded.slice(index, index + size));
+          }
+        }
+      }
+
+      return counts;
+    }
+
+    function createTfidfSpace(documents, extractor, maxFeatures) {
+      const rawDocuments = documents.map(extractor);
+      const documentFrequency = new Map();
+      const corpusFrequency = new Map();
+
+      for (const raw of rawDocuments) {
+        for (const [feature, count] of raw) {
+          documentFrequency.set(feature, (documentFrequency.get(feature) || 0) + 1);
+          corpusFrequency.set(feature, (corpusFrequency.get(feature) || 0) + count);
+        }
+      }
+
+      const selected = [...corpusFrequency]
+        .sort((left, right) => {
+          const countDifference = right[1] - left[1];
+          return countDifference || left[0].localeCompare(right[0]);
+        })
+        .slice(0, maxFeatures)
+        .map(([feature]) => feature);
+      const vocabulary = new Set(selected);
+      const idf = new Map(
+        selected.map((feature) => [
+          feature,
+          Math.log(
+            (1 + documents.length) /
+            (1 + (documentFrequency.get(feature) || 0))
+          ) + 1,
+        ]),
+      );
+
+      function vectorizeRaw(raw) {
+        const weighted = new Map();
+        let squaredNorm = 0;
+
+        for (const [feature, count] of raw) {
+          if (!vocabulary.has(feature)) continue;
+          const value = (1 + Math.log(count)) * idf.get(feature);
+          weighted.set(feature, value);
+          squaredNorm += value * value;
+        }
+
+        const norm = Math.sqrt(squaredNorm);
+        if (!norm) return weighted;
+        for (const [feature, value] of weighted) {
+          weighted.set(feature, value / norm);
+        }
+        return weighted;
+      }
+
+      return {
+        vectors: rawDocuments.map(vectorizeRaw),
+        vectorize(text) {
+          return vectorizeRaw(extractor(text));
+        },
+      };
+    }
+
+    function dotProduct(left, right) {
+      const [smaller, larger] =
+        left.size <= right.size ? [left, right] : [right, left];
+      let total = 0;
+      for (const [feature, value] of smaller) {
+        total += value * (larger.get(feature) || 0);
+      }
+      return total;
+    }
+
+    function buildFeatureText(row) {
+      return (
+        `plant ${normalizeSpace(row.pname)} | ` +
+        `part ${normalizeSpace(row.partuse).toLowerCase()} | ` +
+        `isolation ${normalizeSpace(row.isolation)} | ` +
+        `condition ${normalizeSpace(row.condition)} | ` +
+        "biological anti-inflammatory | " +
+        `biomarker ${normalizeSpace(row.biomarker)} | ` +
+        `model ${normalizeSpace(row.cellAnimalModel)}`
+      );
+    }
+
+    function predictClasses(queryText) {
+      const queryWord = APP.wordSpace.vectorize(queryText);
+      const queryChar = APP.charSpace.vectorize(queryText);
+      const neighbors = APP.rows
+        .map((row, index) => {
+          const wordSimilarity = dotProduct(
+            queryWord,
+            APP.wordSpace.vectors[index],
+          );
+          const charSimilarity = dotProduct(
+            queryChar,
+            APP.charSpace.vectors[index],
+          );
+          const similarity = (wordSimilarity + charSimilarity) / 2;
+          return {
+            index,
+            resultClass: row.resultClass,
+            similarity,
+            distance: Math.max(0, 1 - similarity),
+          };
+        })
+        .sort((left, right) => right.similarity - left.similarity)
+        .slice(0, 3);
+
+      const exactNeighbors = neighbors.filter((item) => item.distance <= 1e-12);
+      const scores = new Map();
+
+      for (const neighbor of neighbors) {
+        const weight = exactNeighbors.length
+          ? (neighbor.distance <= 1e-12 ? 1 : 0)
+          : 1 / Math.max(neighbor.distance, 1e-12);
+        scores.set(
+          neighbor.resultClass,
+          (scores.get(neighbor.resultClass) || 0) + weight,
+        );
+      }
+
+      const totalWeight = [...scores.values()].reduce(
+        (sum, value) => sum + value,
+        0,
+      );
+      return APP.data.model.classLabels
+        .map((resultClass) => ({
+          resultClass,
+          probability: (scores.get(resultClass) || 0) / totalWeight,
+        }))
+        .sort((left, right) => {
+          const probabilityDifference = right.probability - left.probability;
+          return probabilityDifference ||
+            left.resultClass.localeCompare(right.resultClass);
+        });
+    }
+
+    function retrieveNearest(queryText, predictedClass) {
+      const queryVector = APP.retrievalSpace.vectorize(queryText);
+      let best = null;
+
+      APP.rows.forEach((row, index) => {
+        if (row.resultClass !== predictedClass) return;
+        const similarity = dotProduct(
+          queryVector,
+          APP.retrievalSpace.vectors[index],
+        );
+        if (!best || similarity > best.similarity) {
+          best = { row, similarity };
+        }
+      });
+
+      return best;
+    }
+
+    function classLabel(resultClass) {
+      return CLASS_LABELS[resultClass] || resultClass;
+    }
+
+    function renderBars(results) {
+      els.bars.replaceChildren();
+
+      for (const result of results.slice(0, 3)) {
+        const percent = result.probability * 100;
+        const row = document.createElement("div");
+        row.className = "bar-row";
+
+        const label = document.createElement("div");
+        label.textContent = classLabel(result.resultClass);
+
+        const track = document.createElement("div");
+        track.className = "bar-track";
+        const fill = document.createElement("div");
+        fill.className = "bar-fill";
+        fill.style.width = `${percent}%`;
+        track.append(fill);
+
+        const value = document.createElement("strong");
+        value.textContent = `${percent.toFixed(2)}%`;
+        row.append(label, track, value);
+        els.bars.append(row);
+      }
+    }
+
+    function renderPrediction(results, nearest) {
+      const best = results[0];
+      els.bestLabel.textContent = classLabel(best.resultClass);
+      els.bestScore.textContent = `${(best.probability * 100).toFixed(2)}%`;
+      els.retrievalScore.textContent =
+        `${(nearest.similarity * 100).toFixed(2)}%`;
+      els.evidenceResult.textContent = nearest.row.resultClean;
+      els.sourceId.textContent = nearest.row.sourceId;
+      els.sourcePlant.textContent = nearest.row.pname;
+      els.sourceBiomarker.textContent = nearest.row.biomarker;
+      els.sourceModel.textContent = nearest.row.cellAnimalModel;
+      renderBars(results);
+    }
+
+    function appendOptions(datalistId, values) {
+      const datalist = document.getElementById(datalistId);
+      datalist.replaceChildren();
+      for (const value of [...new Set(values)].filter(Boolean).sort()) {
+        const option = document.createElement("option");
+        option.value = value;
+        datalist.append(option);
+      }
+    }
+
+    function fillSource(sourceId) {
+      const source = APP.data.sources.find((item) => item.sourceId === sourceId);
+      if (!source) return;
+      els.pname.value = source.pname;
+      els.partuse.value = source.partuse;
+      els.isolation.value = source.isolation;
+      els.biomarker.value = source.biomarkers[0] || "";
+      els.cellModel.value = source.cellAnimalModel;
+      els.condition.value = source.condition;
+    }
+
+    function populateForm() {
+      els.sourceExample.replaceChildren();
+      for (const source of APP.data.sources) {
+        const option = document.createElement("option");
+        option.value = source.sourceId;
+        option.textContent = `${source.sourceId} — ${source.pname}`;
+        els.sourceExample.append(option);
+      }
+
+      appendOptions("plant-options", APP.data.sources.map((row) => row.pname));
+      appendOptions("part-options", APP.data.sources.map((row) => row.partuse));
+      appendOptions(
+        "isolation-options",
+        APP.data.sources.map((row) => row.isolation),
+      );
+      appendOptions(
+        "biomarker-options",
+        APP.data.outcomes.map((row) => row.biomarker),
+      );
+      appendOptions(
+        "cell-model-options",
+        APP.data.sources.map((row) => row.cellAnimalModel),
+      );
+
+      fillSource(APP.data.sources[0].sourceId);
+    }
+
+    function buildRows() {
+      const sourceById = new Map(
+        APP.data.sources.map((source) => [source.sourceId, source]),
+      );
+      APP.rows = APP.data.outcomes.map((outcome) => {
+        const source = sourceById.get(outcome.sourceId);
+        const row = {
+          ...outcome,
+          pname: source.pname,
+          partuse: source.partuse,
+          isolation: source.isolation,
+          condition: source.condition,
+          biological: source.biological,
+          cellAnimalModel: source.cellAnimalModel,
+        };
+        row.featureText = buildFeatureText(row);
+        return row;
+      });
+
+      const documents = APP.rows.map((row) => row.featureText);
+      APP.wordSpace = createTfidfSpace(documents, wordNgrams, 6000);
+      APP.charSpace = createTfidfSpace(documents, charWbNgrams, 7000);
+      APP.retrievalSpace = createTfidfSpace(documents, charWbNgrams, 8000);
+    }
+
+    async function loadModel() {
+      const response = await fetch(DATA_URL);
+      if (!response.ok) {
+        throw new Error(`Model data request failed: ${response.status}`);
+      }
+      APP.data = await response.json();
+      buildRows();
+      populateForm();
+
+      const metrics = APP.data.model.metrics;
+      els.sourceCount.textContent =
+        `${APP.data.model.sourceRows} source records`;
+      els.outcomeCount.textContent =
+        `${APP.data.model.trainingOutcomes} outcomes`;
+      els.accuracyChip.textContent =
+        `${(metrics.Accuracy * 100).toFixed(2)}% grouped-CV accuracy`;
+      setStatus("โมเดลพร้อมใช้งาน");
+    }
+
+    els.sourceExample.addEventListener("change", () => {
+      fillSource(els.sourceExample.value);
+    });
+
+    els.form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!APP.data) return;
+
+      els.button.disabled = true;
+      setStatus("กำลังประมวลผล...");
+
+      try {
+        const input = {
+          pname: els.pname.value,
+          partuse: els.partuse.value,
+          isolation: els.isolation.value,
+          condition: els.condition.value,
+          biomarker: els.biomarker.value,
+          cellAnimalModel: els.cellModel.value,
+        };
+        const queryText = buildFeatureText(input);
+        const results = predictClasses(queryText);
+        const nearest = retrieveNearest(queryText, results[0].resultClass);
+        renderPrediction(results, nearest);
+        setStatus("ทำนายเสร็จแล้ว");
+      } catch (error) {
+        console.error(error);
+        setStatus("ไม่สามารถประมวลผลได้ กรุณาตรวจสอบข้อมูลแล้วลองใหม่", true);
+      } finally {
+        els.button.disabled = false;
+      }
+    });
+
+    loadModel().catch((error) => {
+      console.error(error);
+      els.button.disabled = true;
+      setStatus("ไม่สามารถโหลดข้อมูลโมเดลได้ กรุณาลอง refresh หน้าเว็บ", true);
+    });
+  </script>
+</body>
+</html>

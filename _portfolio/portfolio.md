@@ -326,6 +326,11 @@ I have worked on around 70 AI projects, including:
     <td>Healthcare,<br>Natural Language Processing,<br>Deep Learning,<br>Classification</td>
     <td>A Streamlit web application that uses a trained Character CNN model to predict vaccine-related outcomes from Thai symptom text and patient age. The project includes a PyTorch model checkpoint, a reusable prediction module, and an interactive web interface for entering symptoms, age, and optional clinical context.</td>
   </tr>
+  <tr>
+    <td>Plant-Derived Exosome Anti-Inflammatory Prediction <a href="https://github.com/micsupasun/exosome">[project]</a> <a href="https://micsupasun.github.io/exosome/">[link]</a></td>
+    <td>Healthcare,<br>Bioinformatics,<br>Machine Learning,<br>Classification,<br>Information Retrieval</td>
+    <td>A browser-based research prototype that predicts anti-inflammatory outcome classes for plant-derived exosome-like nanoparticle experiments using distance-weighted KNN with word and character TF-IDF features. It also retrieves the nearest known experimental result and clearly distinguishes retrieved measurements from new biological estimates.</td>
+  </tr>
 </table>
 
 <h2><a href="https://github.com/micsupasun/kaggle">Kaggle</a></h2>
